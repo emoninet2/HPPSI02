@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 79)
+    (start_pass_no 22506)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -75,6 +75,16 @@
     (via_rule default)
     (rule
       (width 250.0)
+    )
+    (layer_rule In1.Cu
+      (rule 
+        (width 0.0) 
+      )
+    )
+    (layer_rule In2.Cu
+      (rule 
+        (width 0.0) 
+      )
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -143,6 +153,16 @@
     (via_rule kicad_default)
     (rule
       (width 250.0)
+    )
+    (layer_rule In1.Cu
+      (rule 
+        (width 0.0) 
+      )
+    )
+    (layer_rule In2.Cu
+      (rule 
+        (width 0.0) 
+      )
     )
     (circuit 
       (use_layer F.Cu B.Cu)
