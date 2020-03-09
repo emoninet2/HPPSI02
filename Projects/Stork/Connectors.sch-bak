@@ -13,1060 +13,520 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2400 1850 2    50   BiDi ~ 0
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J31
+U 1 1 5E65CB26
+P 1550 3200
+F 0 "J31" H 1600 3617 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 1600 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1550 3200 50  0001 C CNN
+F 3 "~" H 1550 3200 50  0001 C CNN
+	1    1550 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 3400 2    50   BiDi ~ 0
 VIN4_0
-Text GLabel 2400 1750 2    50   BiDi ~ 0
-VIN3_0
-Text GLabel 2400 1650 2    50   BiDi ~ 0
-VIN2_0
-Text GLabel 2400 1550 2    50   BiDi ~ 0
+Text GLabel 1250 3300 0    50   BiDi ~ 0
 VIN1_0
-Text GLabel 2400 2550 2    50   BiDi ~ 0
-VIN4_1
-Text GLabel 2400 2450 2    50   BiDi ~ 0
-VIN3_1
-Text GLabel 2400 2350 2    50   BiDi ~ 0
-VIN2_1
-Text GLabel 2400 2250 2    50   BiDi ~ 0
-VIN1_1
-Text GLabel 2400 3250 2    50   BiDi ~ 0
-VIN4_2
-Text GLabel 2400 3150 2    50   BiDi ~ 0
-VIN3_2
-Text GLabel 2400 3050 2    50   BiDi ~ 0
-VIN2_2
-Text GLabel 2400 2950 2    50   BiDi ~ 0
-VIN1_2
-Text GLabel 2400 3950 2    50   BiDi ~ 0
-VIN4_3
-Text GLabel 2400 3850 2    50   BiDi ~ 0
-VIN3_3
-Text GLabel 2400 3750 2    50   BiDi ~ 0
-VIN2_3
-Text GLabel 2400 3650 2    50   BiDi ~ 0
-VIN1_3
-Text GLabel 2400 4650 2    50   BiDi ~ 0
-VIN4_4
-Text GLabel 2400 4550 2    50   BiDi ~ 0
-VIN3_4
-Text GLabel 2400 4450 2    50   BiDi ~ 0
-VIN2_4
-Text GLabel 2400 4350 2    50   BiDi ~ 0
-VIN1_4
-Text GLabel 2400 5350 2    50   BiDi ~ 0
-VIN4_5
-Text GLabel 2400 5250 2    50   BiDi ~ 0
-VIN3_5
-Text GLabel 2400 5150 2    50   BiDi ~ 0
-VIN2_5
-Text GLabel 2400 5050 2    50   BiDi ~ 0
-VIN1_5
-Text GLabel 4150 5350 2    50   BiDi ~ 0
-VIN4_11
-Text GLabel 4150 5250 2    50   BiDi ~ 0
-VIN3_11
-Text GLabel 4150 5150 2    50   BiDi ~ 0
-VIN2_11
-Text GLabel 4150 5050 2    50   BiDi ~ 0
-VIN1_11
-Text GLabel 4150 4650 2    50   BiDi ~ 0
-VIN4_10
-Text GLabel 4150 4550 2    50   BiDi ~ 0
-VIN3_10
-Text GLabel 4150 4450 2    50   BiDi ~ 0
-VIN2_10
-Text GLabel 4150 4350 2    50   BiDi ~ 0
-VIN1_10
-Text GLabel 4150 3950 2    50   BiDi ~ 0
-VIN4_9
-Text GLabel 4150 3850 2    50   BiDi ~ 0
-VIN3_9
-Text GLabel 4150 3750 2    50   BiDi ~ 0
-VIN2_9
-Text GLabel 4150 3650 2    50   BiDi ~ 0
-VIN1_9
-Text GLabel 4150 3250 2    50   BiDi ~ 0
-VIN4_8
-Text GLabel 4150 3150 2    50   BiDi ~ 0
-VIN3_8
-Text GLabel 4150 3050 2    50   BiDi ~ 0
-VIN2_8
-Text GLabel 4150 2950 2    50   BiDi ~ 0
-VIN1_8
-Text GLabel 4150 2550 2    50   BiDi ~ 0
-VIN4_7
-Text GLabel 4150 2450 2    50   BiDi ~ 0
-VIN3_7
-Text GLabel 4150 2350 2    50   BiDi ~ 0
-VIN2_7
-Text GLabel 4150 2250 2    50   BiDi ~ 0
-VIN1_7
-Text GLabel 4150 1850 2    50   BiDi ~ 0
-VIN4_6
-Text GLabel 4150 1750 2    50   BiDi ~ 0
-VIN3_6
-Text GLabel 4150 1650 2    50   BiDi ~ 0
-VIN2_6
-Text GLabel 4150 1550 2    50   BiDi ~ 0
+Text GLabel 1950 3200 2    50   BiDi ~ 0
+VIN3_0
+Text GLabel 1950 3000 2    50   BiDi ~ 0
+VIN2_0
+Wire Wire Line
+	1250 3300 1350 3300
+Wire Wire Line
+	1950 3000 1850 3000
+Wire Wire Line
+	1950 3200 1850 3200
+Wire Wire Line
+	1950 3400 1850 3400
+Text GLabel 1250 3200 0    50   BiDi ~ 0
 VIN1_6
-Text GLabel 5850 5350 2    50   BiDi ~ 0
-VIN4_17
-Text GLabel 5850 5250 2    50   BiDi ~ 0
-VIN3_17
-Text GLabel 5850 5150 2    50   BiDi ~ 0
-VIN2_17
-Text GLabel 5850 5050 2    50   BiDi ~ 0
-VIN1_17
-Text GLabel 5850 4650 2    50   BiDi ~ 0
-VIN4_16
-Text GLabel 5850 4550 2    50   BiDi ~ 0
-VIN3_16
-Text GLabel 5850 4450 2    50   BiDi ~ 0
-VIN2_16
-Text GLabel 5850 4350 2    50   BiDi ~ 0
-VIN1_16
-Text GLabel 5850 3950 2    50   BiDi ~ 0
-VIN4_15
-Text GLabel 5850 3850 2    50   BiDi ~ 0
-VIN3_15
-Text GLabel 5850 3750 2    50   BiDi ~ 0
-VIN2_15
-Text GLabel 5850 3650 2    50   BiDi ~ 0
-VIN1_15
-Text GLabel 5850 3250 2    50   BiDi ~ 0
-VIN4_14
-Text GLabel 5850 3150 2    50   BiDi ~ 0
-VIN3_14
-Text GLabel 5850 3050 2    50   BiDi ~ 0
-VIN2_14
-Text GLabel 5850 2950 2    50   BiDi ~ 0
-VIN1_14
-Text GLabel 5850 2550 2    50   BiDi ~ 0
-VIN4_13
-Text GLabel 5850 2450 2    50   BiDi ~ 0
-VIN3_13
-Text GLabel 5850 2350 2    50   BiDi ~ 0
-VIN2_13
-Text GLabel 5850 2250 2    50   BiDi ~ 0
-VIN1_13
-Text GLabel 5850 1850 2    50   BiDi ~ 0
+Text GLabel 1250 3400 0    50   BiDi ~ 0
+VIN2_6
+Text GLabel 1950 3100 2    50   BiDi ~ 0
+VIN3_6
+Text GLabel 1950 3300 2    50   BiDi ~ 0
+VIN4_6
+Wire Wire Line
+	1250 3200 1350 3200
+Wire Wire Line
+	1250 3400 1350 3400
+Wire Wire Line
+	1950 3100 1850 3100
+Wire Wire Line
+	1950 3300 1850 3300
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J32
+U 1 1 5E834286
+P 3400 3200
+F 0 "J32" H 3450 3617 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 3450 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3400 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 3400 2    50   BiDi ~ 0
+VIN4_1
+Text GLabel 3100 3300 0    50   BiDi ~ 0
+VIN1_1
+Text GLabel 3800 3200 2    50   BiDi ~ 0
+VIN3_1
+Text GLabel 3800 3000 2    50   BiDi ~ 0
+VIN2_1
+Wire Wire Line
+	3100 3300 3200 3300
+Wire Wire Line
+	3800 3000 3700 3000
+Wire Wire Line
+	3800 3200 3700 3200
+Wire Wire Line
+	3800 3400 3700 3400
+Text GLabel 3100 3200 0    50   BiDi ~ 0
+VIN1_7
+Text GLabel 3100 3400 0    50   BiDi ~ 0
+VIN2_7
+Text GLabel 3800 3100 2    50   BiDi ~ 0
+VIN3_7
+Text GLabel 3800 3300 2    50   BiDi ~ 0
+VIN4_7
+Wire Wire Line
+	3100 3200 3200 3200
+Wire Wire Line
+	3100 3400 3200 3400
+Wire Wire Line
+	3800 3100 3700 3100
+Wire Wire Line
+	3800 3300 3700 3300
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J33
+U 1 1 5E83FE78
+P 5150 3200
+F 0 "J33" H 5200 3617 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 5200 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5150 3200 50  0001 C CNN
+F 3 "~" H 5150 3200 50  0001 C CNN
+	1    5150 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 3400 2    50   BiDi ~ 0
+VIN4_2
+Text GLabel 4850 3300 0    50   BiDi ~ 0
+VIN1_2
+Text GLabel 5550 3200 2    50   BiDi ~ 0
+VIN3_2
+Text GLabel 5550 3000 2    50   BiDi ~ 0
+VIN2_2
+Wire Wire Line
+	4850 3300 4950 3300
+Wire Wire Line
+	5550 3000 5450 3000
+Wire Wire Line
+	5550 3200 5450 3200
+Wire Wire Line
+	5550 3400 5450 3400
+Text GLabel 4850 3200 0    50   BiDi ~ 0
+VIN1_8
+Text GLabel 4850 3400 0    50   BiDi ~ 0
+VIN2_8
+Text GLabel 5550 3100 2    50   BiDi ~ 0
+VIN3_8
+Text GLabel 5550 3300 2    50   BiDi ~ 0
+VIN4_8
+Wire Wire Line
+	4850 3200 4950 3200
+Wire Wire Line
+	4850 3400 4950 3400
+Wire Wire Line
+	5550 3100 5450 3100
+Wire Wire Line
+	5550 3300 5450 3300
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J34
+U 1 1 5E84B10A
+P 6850 3200
+F 0 "J34" H 6900 3617 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 6900 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6850 3200 50  0001 C CNN
+F 3 "~" H 6850 3200 50  0001 C CNN
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 3400 2    50   BiDi ~ 0
+VIN4_3
+Text GLabel 6550 3300 0    50   BiDi ~ 0
+VIN1_3
+Text GLabel 7250 3200 2    50   BiDi ~ 0
+VIN3_3
+Text GLabel 7250 3000 2    50   BiDi ~ 0
+VIN2_3
+Wire Wire Line
+	6550 3300 6650 3300
+Wire Wire Line
+	7250 3000 7150 3000
+Wire Wire Line
+	7250 3200 7150 3200
+Wire Wire Line
+	7250 3400 7150 3400
+Text GLabel 6550 3200 0    50   BiDi ~ 0
+VIN1_9
+Text GLabel 6550 3400 0    50   BiDi ~ 0
+VIN2_9
+Text GLabel 7250 3100 2    50   BiDi ~ 0
+VIN3_9
+Text GLabel 7250 3300 2    50   BiDi ~ 0
+VIN4_9
+Wire Wire Line
+	6550 3200 6650 3200
+Wire Wire Line
+	6550 3400 6650 3400
+Wire Wire Line
+	7250 3100 7150 3100
+Wire Wire Line
+	7250 3300 7150 3300
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J35
+U 1 1 5E86B87C
+P 8500 3200
+F 0 "J35" H 8550 3617 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 8550 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 8500 3200 50  0001 C CNN
+F 3 "~" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 3400 2    50   BiDi ~ 0
+VIN4_4
+Text GLabel 8200 3300 0    50   BiDi ~ 0
+VIN1_4
+Text GLabel 8900 3200 2    50   BiDi ~ 0
+VIN3_4
+Text GLabel 8900 3000 2    50   BiDi ~ 0
+VIN2_4
+Wire Wire Line
+	8200 3300 8300 3300
+Wire Wire Line
+	8900 3000 8800 3000
+Wire Wire Line
+	8900 3200 8800 3200
+Wire Wire Line
+	8900 3400 8800 3400
+Text GLabel 8200 3200 0    50   BiDi ~ 0
+VIN1_10
+Text GLabel 8200 3400 0    50   BiDi ~ 0
+VIN2_10
+Text GLabel 8900 3100 2    50   BiDi ~ 0
+VIN3_10
+Text GLabel 8900 3300 2    50   BiDi ~ 0
+VIN4_10
+Wire Wire Line
+	8200 3200 8300 3200
+Wire Wire Line
+	8200 3400 8300 3400
+Wire Wire Line
+	8900 3100 8800 3100
+Wire Wire Line
+	8900 3300 8800 3300
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J36
+U 1 1 5E87A001
+P 10150 3200
+F 0 "J36" H 10200 3617 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 10200 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10150 3200 50  0001 C CNN
+F 3 "~" H 10150 3200 50  0001 C CNN
+	1    10150 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 10550 3400 2    50   BiDi ~ 0
+VIN4_5
+Text GLabel 9850 3300 0    50   BiDi ~ 0
+VIN1_5
+Text GLabel 10550 3200 2    50   BiDi ~ 0
+VIN3_5
+Text GLabel 10550 3000 2    50   BiDi ~ 0
+VIN2_5
+Wire Wire Line
+	9850 3300 9950 3300
+Wire Wire Line
+	10550 3000 10450 3000
+Wire Wire Line
+	10550 3200 10450 3200
+Wire Wire Line
+	10550 3400 10450 3400
+Text GLabel 9850 3200 0    50   BiDi ~ 0
+VIN1_11
+Text GLabel 9850 3400 0    50   BiDi ~ 0
+VIN2_11
+Text GLabel 10550 3100 2    50   BiDi ~ 0
+VIN3_11
+Text GLabel 10550 3300 2    50   BiDi ~ 0
+VIN4_11
+Wire Wire Line
+	9850 3200 9950 3200
+Wire Wire Line
+	9850 3400 9950 3400
+Wire Wire Line
+	10550 3100 10450 3100
+Wire Wire Line
+	10550 3300 10450 3300
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J37
+U 1 1 5E88B087
+P 1550 4050
+F 0 "J37" H 1600 4467 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 1600 4376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1550 4050 50  0001 C CNN
+F 3 "~" H 1550 4050 50  0001 C CNN
+	1    1550 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 4250 2    50   BiDi ~ 0
 VIN4_12
-Text GLabel 5850 1750 2    50   BiDi ~ 0
-VIN3_12
-Text GLabel 5850 1650 2    50   BiDi ~ 0
-VIN2_12
-Text GLabel 5850 1550 2    50   BiDi ~ 0
+Text GLabel 1250 4150 0    50   BiDi ~ 0
 VIN1_12
-Text GLabel 7550 5350 2    50   BiDi ~ 0
-VIN4_23
-Text GLabel 7550 5250 2    50   BiDi ~ 0
-VIN3_23
-Text GLabel 7550 5150 2    50   BiDi ~ 0
-VIN2_23
-Text GLabel 7550 5050 2    50   BiDi ~ 0
-VIN1_23
-Text GLabel 7550 4650 2    50   BiDi ~ 0
-VIN4_22
-Text GLabel 7550 4550 2    50   BiDi ~ 0
-VIN3_22
-Text GLabel 7550 4450 2    50   BiDi ~ 0
-VIN2_22
-Text GLabel 7550 4350 2    50   BiDi ~ 0
-VIN1_22
-Text GLabel 7550 3950 2    50   BiDi ~ 0
-VIN4_21
-Text GLabel 7550 3850 2    50   BiDi ~ 0
-VIN3_21
-Text GLabel 7550 3750 2    50   BiDi ~ 0
-VIN2_21
-Text GLabel 7550 3650 2    50   BiDi ~ 0
-VIN1_21
-Text GLabel 7550 3250 2    50   BiDi ~ 0
-VIN4_20
-Text GLabel 7550 3150 2    50   BiDi ~ 0
-VIN3_20
-Text GLabel 7550 3050 2    50   BiDi ~ 0
-VIN2_20
-Text GLabel 7550 2950 2    50   BiDi ~ 0
-VIN1_20
-Text GLabel 7550 2550 2    50   BiDi ~ 0
-VIN4_19
-Text GLabel 7550 2450 2    50   BiDi ~ 0
-VIN3_19
-Text GLabel 7550 2350 2    50   BiDi ~ 0
-VIN2_19
-Text GLabel 7550 2250 2    50   BiDi ~ 0
-VIN1_19
-Text GLabel 7550 1850 2    50   BiDi ~ 0
-VIN4_18
-Text GLabel 7550 1750 2    50   BiDi ~ 0
-VIN3_18
-Text GLabel 7550 1650 2    50   BiDi ~ 0
-VIN2_18
-Text GLabel 7550 1550 2    50   BiDi ~ 0
+Text GLabel 1950 4050 2    50   BiDi ~ 0
+VIN3_12
+Text GLabel 1950 3850 2    50   BiDi ~ 0
+VIN2_12
+Wire Wire Line
+	1250 4150 1350 4150
+Wire Wire Line
+	1950 3850 1850 3850
+Wire Wire Line
+	1950 4050 1850 4050
+Wire Wire Line
+	1950 4250 1850 4250
+Text GLabel 1250 4050 0    50   BiDi ~ 0
 VIN1_18
+Text GLabel 1250 4250 0    50   BiDi ~ 0
+VIN2_18
+Text GLabel 1950 3950 2    50   BiDi ~ 0
+VIN3_18
+Text GLabel 1950 4150 2    50   BiDi ~ 0
+VIN4_18
 Wire Wire Line
-	2400 1550 2050 1550
+	1250 4050 1350 4050
 Wire Wire Line
-	2400 1650 2050 1650
+	1250 4250 1350 4250
 Wire Wire Line
-	2400 1750 2050 1750
+	1950 3950 1850 3950
 Wire Wire Line
-	2400 1850 2050 1850
-Wire Wire Line
-	2400 2250 2050 2250
-Wire Wire Line
-	2400 2350 2050 2350
-Wire Wire Line
-	2400 2450 2050 2450
-Wire Wire Line
-	2400 2550 2050 2550
-Wire Wire Line
-	2400 2950 2050 2950
-Wire Wire Line
-	2400 3050 2050 3050
-Wire Wire Line
-	2400 3150 2050 3150
-Wire Wire Line
-	2400 3250 2050 3250
-Wire Wire Line
-	2400 3650 2050 3650
-Wire Wire Line
-	2400 3750 2050 3750
-Wire Wire Line
-	2400 3850 2050 3850
-Wire Wire Line
-	2400 3950 2050 3950
-Wire Wire Line
-	2400 4350 2050 4350
-Wire Wire Line
-	2400 4450 2050 4450
-Wire Wire Line
-	2400 4550 2050 4550
-Wire Wire Line
-	2400 4650 2050 4650
-Wire Wire Line
-	2400 5050 2050 5050
-Wire Wire Line
-	2400 5150 2050 5150
-Wire Wire Line
-	2400 5250 2050 5250
-Wire Wire Line
-	2400 5350 2050 5350
-Wire Wire Line
-	4150 1550 3800 1550
-Wire Wire Line
-	4150 1650 3800 1650
-Wire Wire Line
-	4150 1750 3800 1750
-Wire Wire Line
-	4150 1850 3800 1850
-Wire Wire Line
-	4150 2250 3800 2250
-Wire Wire Line
-	4150 2350 3800 2350
-Wire Wire Line
-	4150 2450 3800 2450
-Wire Wire Line
-	4150 2550 3800 2550
-Wire Wire Line
-	4150 2950 3800 2950
-Wire Wire Line
-	4150 3050 3800 3050
-Wire Wire Line
-	4150 3150 3800 3150
-Wire Wire Line
-	4150 3250 3800 3250
-Wire Wire Line
-	4150 3650 3800 3650
-Wire Wire Line
-	4150 3750 3800 3750
-Wire Wire Line
-	4150 3850 3800 3850
-Wire Wire Line
-	4150 3950 3800 3950
-Wire Wire Line
-	4150 4350 3800 4350
-Wire Wire Line
-	4150 4450 3800 4450
-Wire Wire Line
-	4150 4550 3800 4550
-Wire Wire Line
-	4150 4650 3800 4650
-Wire Wire Line
-	4150 5050 3800 5050
-Wire Wire Line
-	4150 5150 3800 5150
-Wire Wire Line
-	4150 5250 3800 5250
-Wire Wire Line
-	4150 5350 3800 5350
-Wire Wire Line
-	5850 1550 5500 1550
-Wire Wire Line
-	5850 1650 5500 1650
-Wire Wire Line
-	5850 1750 5500 1750
-Wire Wire Line
-	5850 1850 5500 1850
-Wire Wire Line
-	5850 2250 5500 2250
-Wire Wire Line
-	5850 2350 5500 2350
-Wire Wire Line
-	5850 2450 5500 2450
-Wire Wire Line
-	5850 2550 5500 2550
-Wire Wire Line
-	5850 2950 5500 2950
-Wire Wire Line
-	5850 3050 5500 3050
-Wire Wire Line
-	5850 3150 5500 3150
-Wire Wire Line
-	5850 3250 5500 3250
-Wire Wire Line
-	5850 3650 5500 3650
-Wire Wire Line
-	5850 3750 5500 3750
-Wire Wire Line
-	5850 3850 5500 3850
-Wire Wire Line
-	5850 3950 5500 3950
-Wire Wire Line
-	5850 4350 5500 4350
-Wire Wire Line
-	5850 4450 5500 4450
-Wire Wire Line
-	5850 4550 5500 4550
-Wire Wire Line
-	5850 4650 5500 4650
-Wire Wire Line
-	7550 1550 7200 1550
-Wire Wire Line
-	7550 1650 7200 1650
-Wire Wire Line
-	7550 1750 7200 1750
-Wire Wire Line
-	7550 1850 7200 1850
-Wire Wire Line
-	7550 2250 7200 2250
-Wire Wire Line
-	7550 2350 7200 2350
-Wire Wire Line
-	7550 2450 7200 2450
-Wire Wire Line
-	7550 2550 7200 2550
-Wire Wire Line
-	7550 2950 7200 2950
-Wire Wire Line
-	7550 3050 7200 3050
-Wire Wire Line
-	7550 3150 7200 3150
-Wire Wire Line
-	7550 3250 7200 3250
-Wire Wire Line
-	7550 3650 7200 3650
-Wire Wire Line
-	7550 3750 7200 3750
-Wire Wire Line
-	7550 3850 7200 3850
-Wire Wire Line
-	7550 3950 7200 3950
-Wire Wire Line
-	7550 4350 7200 4350
-Wire Wire Line
-	7550 4450 7200 4450
-Wire Wire Line
-	7550 4550 7200 4550
-Wire Wire Line
-	7550 4650 7200 4650
-Wire Wire Line
-	7550 5050 7200 5050
-Wire Wire Line
-	7550 5150 7200 5150
-Wire Wire Line
-	7550 5250 7200 5250
-Wire Wire Line
-	7550 5350 7200 5350
-Wire Wire Line
-	5500 5050 5850 5050
-Wire Wire Line
-	5500 5150 5850 5150
-Wire Wire Line
-	5500 5250 5850 5250
-Wire Wire Line
-	5500 5350 5850 5350
-Wire Wire Line
-	2050 1450 2900 1450
+	1950 4150 1850 4150
 $Comp
-L power:GND #PWR?
-U 1 1 5E3C1D53
-P 2900 1550
-AR Path="/5E33202B/5E3C1D53" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3C1D53" Ref="#PWR0183"  Part="1" 
-F 0 "#PWR0183" H 2900 1300 50  0001 C CNN
-F 1 "GND" H 2905 1377 50  0000 C CNN
-F 2 "" H 2900 1550 50  0001 C CNN
-F 3 "" H 2900 1550 50  0001 C CNN
-	1    2900 1550
+L Connector_Generic:Conn_02x05_Top_Bottom J38
+U 1 1 5E89D7DA
+P 3450 4000
+F 0 "J38" H 3500 4417 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 3500 4326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3450 4000 50  0001 C CNN
+F 3 "~" H 3450 4000 50  0001 C CNN
+	1    3450 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J1
-U 1 1 5E3C1D59
-P 1850 1650
-F 0 "J1" H 1768 2067 50  0000 C CNN
-F 1 "Conn_01x05" H 1768 1976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 1650 50  0001 C CNN
-F 3 "~" H 1850 1650 50  0001 C CNN
-	1    1850 1650
-	-1   0    0    -1  
-$EndComp
+Text GLabel 3850 4200 2    50   BiDi ~ 0
+VIN4_13
+Text GLabel 3150 4100 0    50   BiDi ~ 0
+VIN1_13
+Text GLabel 3850 4000 2    50   BiDi ~ 0
+VIN3_13
+Text GLabel 3850 3800 2    50   BiDi ~ 0
+VIN2_13
 Wire Wire Line
-	2900 1550 2900 1450
+	3150 4100 3250 4100
 Wire Wire Line
-	2050 2150 2900 2150
+	3850 3800 3750 3800
+Wire Wire Line
+	3850 4000 3750 4000
+Wire Wire Line
+	3850 4200 3750 4200
+Text GLabel 3150 4000 0    50   BiDi ~ 0
+VIN1_19
+Text GLabel 3150 4200 0    50   BiDi ~ 0
+VIN2_19
+Text GLabel 3850 3900 2    50   BiDi ~ 0
+VIN3_19
+Text GLabel 3850 4100 2    50   BiDi ~ 0
+VIN4_19
+Wire Wire Line
+	3150 4000 3250 4000
+Wire Wire Line
+	3150 4200 3250 4200
+Wire Wire Line
+	3850 3900 3750 3900
+Wire Wire Line
+	3850 4100 3750 4100
 $Comp
-L power:GND #PWR?
-U 1 1 5E3C6198
-P 2900 2250
-AR Path="/5E33202B/5E3C6198" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3C6198" Ref="#PWR0184"  Part="1" 
-F 0 "#PWR0184" H 2900 2000 50  0001 C CNN
-F 1 "GND" H 2905 2077 50  0000 C CNN
-F 2 "" H 2900 2250 50  0001 C CNN
-F 3 "" H 2900 2250 50  0001 C CNN
-	1    2900 2250
+L Connector_Generic:Conn_02x05_Top_Bottom J39
+U 1 1 5E8B15B7
+P 5150 4000
+F 0 "J39" H 5200 4417 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 5200 4326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5150 4000 50  0001 C CNN
+F 3 "~" H 5150 4000 50  0001 C CNN
+	1    5150 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 5E3C619E
-P 1850 2350
-F 0 "J2" H 1768 2767 50  0000 C CNN
-F 1 "Conn_01x05" H 1768 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 2350 50  0001 C CNN
-F 3 "~" H 1850 2350 50  0001 C CNN
-	1    1850 2350
-	-1   0    0    -1  
-$EndComp
+Text GLabel 5550 4200 2    50   BiDi ~ 0
+VIN4_14
+Text GLabel 4850 4100 0    50   BiDi ~ 0
+VIN1_14
+Text GLabel 5550 4000 2    50   BiDi ~ 0
+VIN3_14
+Text GLabel 5550 3800 2    50   BiDi ~ 0
+VIN2_14
 Wire Wire Line
-	2900 2250 2900 2150
+	4850 4100 4950 4100
 Wire Wire Line
-	2050 2850 2900 2850
+	5550 3800 5450 3800
+Wire Wire Line
+	5550 4000 5450 4000
+Wire Wire Line
+	5550 4200 5450 4200
+Text GLabel 4850 4000 0    50   BiDi ~ 0
+VIN1_20
+Text GLabel 4850 4200 0    50   BiDi ~ 0
+VIN2_20
+Text GLabel 5550 3900 2    50   BiDi ~ 0
+VIN3_20
+Text GLabel 5550 4100 2    50   BiDi ~ 0
+VIN4_20
+Wire Wire Line
+	4850 4000 4950 4000
+Wire Wire Line
+	4850 4200 4950 4200
+Wire Wire Line
+	5550 3900 5450 3900
+Wire Wire Line
+	5550 4100 5450 4100
 $Comp
-L power:GND #PWR?
-U 1 1 5E3CA6CA
-P 2900 2950
-AR Path="/5E33202B/5E3CA6CA" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3CA6CA" Ref="#PWR0185"  Part="1" 
-F 0 "#PWR0185" H 2900 2700 50  0001 C CNN
-F 1 "GND" H 2905 2777 50  0000 C CNN
-F 2 "" H 2900 2950 50  0001 C CNN
-F 3 "" H 2900 2950 50  0001 C CNN
-	1    2900 2950
+L Connector_Generic:Conn_02x05_Top_Bottom J40
+U 1 1 5E8C5693
+P 6850 4000
+F 0 "J40" H 6900 4417 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 6900 4326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6850 4000 50  0001 C CNN
+F 3 "~" H 6850 4000 50  0001 C CNN
+	1    6850 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J3
-U 1 1 5E3CA6D0
-P 1850 3050
-F 0 "J3" H 1768 3467 50  0000 C CNN
-F 1 "Conn_01x05" H 1768 3376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 3050 50  0001 C CNN
-F 3 "~" H 1850 3050 50  0001 C CNN
-	1    1850 3050
-	-1   0    0    -1  
-$EndComp
+Text GLabel 7250 4200 2    50   BiDi ~ 0
+VIN4_15
+Text GLabel 6550 4100 0    50   BiDi ~ 0
+VIN1_15
+Text GLabel 7250 4000 2    50   BiDi ~ 0
+VIN3_15
+Text GLabel 7250 3800 2    50   BiDi ~ 0
+VIN2_15
 Wire Wire Line
-	2900 2950 2900 2850
+	6550 4100 6650 4100
 Wire Wire Line
-	2050 3550 2900 3550
+	7250 3800 7150 3800
+Wire Wire Line
+	7250 4000 7150 4000
+Wire Wire Line
+	7250 4200 7150 4200
+Text GLabel 6550 4000 0    50   BiDi ~ 0
+VIN1_21
+Text GLabel 6550 4200 0    50   BiDi ~ 0
+VIN2_21
+Text GLabel 7250 3900 2    50   BiDi ~ 0
+VIN3_21
+Text GLabel 7250 4100 2    50   BiDi ~ 0
+VIN4_21
+Wire Wire Line
+	6550 4000 6650 4000
+Wire Wire Line
+	6550 4200 6650 4200
+Wire Wire Line
+	7250 3900 7150 3900
+Wire Wire Line
+	7250 4100 7150 4100
 $Comp
-L power:GND #PWR?
-U 1 1 5E3CE8A2
-P 2900 3650
-AR Path="/5E33202B/5E3CE8A2" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3CE8A2" Ref="#PWR0186"  Part="1" 
-F 0 "#PWR0186" H 2900 3400 50  0001 C CNN
-F 1 "GND" H 2905 3477 50  0000 C CNN
-F 2 "" H 2900 3650 50  0001 C CNN
-F 3 "" H 2900 3650 50  0001 C CNN
-	1    2900 3650
+L Connector_Generic:Conn_02x05_Top_Bottom J41
+U 1 1 5E8DAF34
+P 8550 4000
+F 0 "J41" H 8600 4417 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 8600 4326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 8550 4000 50  0001 C CNN
+F 3 "~" H 8550 4000 50  0001 C CNN
+	1    8550 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J4
-U 1 1 5E3CE8A8
-P 1850 3750
-F 0 "J4" H 1768 4167 50  0000 C CNN
-F 1 "Conn_01x05" H 1768 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 3750 50  0001 C CNN
-F 3 "~" H 1850 3750 50  0001 C CNN
-	1    1850 3750
-	-1   0    0    -1  
-$EndComp
+Text GLabel 8950 4200 2    50   BiDi ~ 0
+VIN4_16
+Text GLabel 8250 4100 0    50   BiDi ~ 0
+VIN1_16
+Text GLabel 8950 4000 2    50   BiDi ~ 0
+VIN3_16
+Text GLabel 8950 3800 2    50   BiDi ~ 0
+VIN2_16
 Wire Wire Line
-	2900 3650 2900 3550
+	8250 4100 8350 4100
 Wire Wire Line
-	2050 4250 2900 4250
+	8950 3800 8850 3800
+Wire Wire Line
+	8950 4000 8850 4000
+Wire Wire Line
+	8950 4200 8850 4200
+Text GLabel 8250 4000 0    50   BiDi ~ 0
+VIN1_22
+Text GLabel 8250 4200 0    50   BiDi ~ 0
+VIN2_22
+Text GLabel 8950 3900 2    50   BiDi ~ 0
+VIN3_22
+Text GLabel 8950 4100 2    50   BiDi ~ 0
+VIN4_22
+Wire Wire Line
+	8250 4000 8350 4000
+Wire Wire Line
+	8250 4200 8350 4200
+Wire Wire Line
+	8950 3900 8850 3900
+Wire Wire Line
+	8950 4100 8850 4100
 $Comp
-L power:GND #PWR?
-U 1 1 5E3D368E
-P 2900 4350
-AR Path="/5E33202B/5E3D368E" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3D368E" Ref="#PWR0187"  Part="1" 
-F 0 "#PWR0187" H 2900 4100 50  0001 C CNN
-F 1 "GND" H 2905 4177 50  0000 C CNN
-F 2 "" H 2900 4350 50  0001 C CNN
-F 3 "" H 2900 4350 50  0001 C CNN
-	1    2900 4350
+L Connector_Generic:Conn_02x05_Top_Bottom J42
+U 1 1 5E8F1E3D
+P 10150 4000
+F 0 "J42" H 10200 4417 50  0000 C CNN
+F 1 "Conn_02x05_Top_Bottom" H 10200 4326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10150 4000 50  0001 C CNN
+F 3 "~" H 10150 4000 50  0001 C CNN
+	1    10150 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J5
-U 1 1 5E3D3694
-P 1850 4450
-F 0 "J5" H 1768 4867 50  0000 C CNN
-F 1 "Conn_01x05" H 1768 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 4450 50  0001 C CNN
-F 3 "~" H 1850 4450 50  0001 C CNN
-	1    1850 4450
-	-1   0    0    -1  
-$EndComp
+Text GLabel 10550 4200 2    50   BiDi ~ 0
+VIN4_17
+Text GLabel 9850 4100 0    50   BiDi ~ 0
+VIN1_17
+Text GLabel 10550 4000 2    50   BiDi ~ 0
+VIN3_17
+Text GLabel 10550 3800 2    50   BiDi ~ 0
+VIN2_17
 Wire Wire Line
-	2900 4350 2900 4250
+	9850 4100 9950 4100
 Wire Wire Line
-	2050 4950 2900 4950
-$Comp
-L power:GND #PWR?
-U 1 1 5E3D7FCC
-P 2900 5050
-AR Path="/5E33202B/5E3D7FCC" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3D7FCC" Ref="#PWR0188"  Part="1" 
-F 0 "#PWR0188" H 2900 4800 50  0001 C CNN
-F 1 "GND" H 2905 4877 50  0000 C CNN
-F 2 "" H 2900 5050 50  0001 C CNN
-F 3 "" H 2900 5050 50  0001 C CNN
-	1    2900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J6
-U 1 1 5E3D7FD2
-P 1850 5150
-F 0 "J6" H 1768 5567 50  0000 C CNN
-F 1 "Conn_01x05" H 1768 5476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 5150 50  0001 C CNN
-F 3 "~" H 1850 5150 50  0001 C CNN
-	1    1850 5150
-	-1   0    0    -1  
-$EndComp
+	10550 3800 10450 3800
 Wire Wire Line
-	2900 5050 2900 4950
+	10550 4000 10450 4000
 Wire Wire Line
-	4650 1550 4650 1450
-$Comp
-L Connector_Generic:Conn_01x05 J7
-U 1 1 5E3F2502
-P 3600 1650
-F 0 "J7" H 3518 2067 50  0000 C CNN
-F 1 "Conn_01x05" H 3518 1976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3600 1650 50  0001 C CNN
-F 3 "~" H 3600 1650 50  0001 C CNN
-	1    3600 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E3F2508
-P 4650 1550
-AR Path="/5E33202B/5E3F2508" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3F2508" Ref="#PWR0189"  Part="1" 
-F 0 "#PWR0189" H 4650 1300 50  0001 C CNN
-F 1 "GND" H 4655 1377 50  0000 C CNN
-F 2 "" H 4650 1550 50  0001 C CNN
-F 3 "" H 4650 1550 50  0001 C CNN
-	1    4650 1550
-	1    0    0    -1  
-$EndComp
+	10550 4200 10450 4200
+Text GLabel 9850 4000 0    50   BiDi ~ 0
+VIN1_23
+Text GLabel 9850 4200 0    50   BiDi ~ 0
+VIN2_23
+Text GLabel 10550 3900 2    50   BiDi ~ 0
+VIN3_23
+Text GLabel 10550 4100 2    50   BiDi ~ 0
+VIN4_23
 Wire Wire Line
-	3800 1450 4650 1450
+	9850 4000 9950 4000
 Wire Wire Line
-	4650 2250 4650 2150
-$Comp
-L Connector_Generic:Conn_01x05 J8
-U 1 1 5E3FCA0A
-P 3600 2350
-F 0 "J8" H 3518 2767 50  0000 C CNN
-F 1 "Conn_01x05" H 3518 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3600 2350 50  0001 C CNN
-F 3 "~" H 3600 2350 50  0001 C CNN
-	1    3600 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E3FCA10
-P 4650 2250
-AR Path="/5E33202B/5E3FCA10" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E3FCA10" Ref="#PWR0190"  Part="1" 
-F 0 "#PWR0190" H 4650 2000 50  0001 C CNN
-F 1 "GND" H 4655 2077 50  0000 C CNN
-F 2 "" H 4650 2250 50  0001 C CNN
-F 3 "" H 4650 2250 50  0001 C CNN
-	1    4650 2250
-	1    0    0    -1  
-$EndComp
+	9850 4200 9950 4200
 Wire Wire Line
-	3800 2150 4650 2150
+	10550 3900 10450 3900
 Wire Wire Line
-	4650 2950 4650 2850
-$Comp
-L Connector_Generic:Conn_01x05 J9
-U 1 1 5E4018AE
-P 3600 3050
-F 0 "J9" H 3518 3467 50  0000 C CNN
-F 1 "Conn_01x05" H 3518 3376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3600 3050 50  0001 C CNN
-F 3 "~" H 3600 3050 50  0001 C CNN
-	1    3600 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E4018B4
-P 4650 2950
-AR Path="/5E33202B/5E4018B4" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E4018B4" Ref="#PWR0191"  Part="1" 
-F 0 "#PWR0191" H 4650 2700 50  0001 C CNN
-F 1 "GND" H 4655 2777 50  0000 C CNN
-F 2 "" H 4650 2950 50  0001 C CNN
-F 3 "" H 4650 2950 50  0001 C CNN
-	1    4650 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 2850 4650 2850
-Wire Wire Line
-	4650 3650 4650 3550
-$Comp
-L Connector_Generic:Conn_01x05 J10
-U 1 1 5E406CE0
-P 3600 3750
-F 0 "J10" H 3518 4167 50  0000 C CNN
-F 1 "Conn_01x05" H 3518 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3600 3750 50  0001 C CNN
-F 3 "~" H 3600 3750 50  0001 C CNN
-	1    3600 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E406CE6
-P 4650 3650
-AR Path="/5E33202B/5E406CE6" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E406CE6" Ref="#PWR0192"  Part="1" 
-F 0 "#PWR0192" H 4650 3400 50  0001 C CNN
-F 1 "GND" H 4655 3477 50  0000 C CNN
-F 2 "" H 4650 3650 50  0001 C CNN
-F 3 "" H 4650 3650 50  0001 C CNN
-	1    4650 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 3550 4650 3550
-Wire Wire Line
-	4650 4350 4650 4250
-$Comp
-L Connector_Generic:Conn_01x05 J11
-U 1 1 5E40C0DE
-P 3600 4450
-F 0 "J11" H 3518 4867 50  0000 C CNN
-F 1 "Conn_01x05" H 3518 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3600 4450 50  0001 C CNN
-F 3 "~" H 3600 4450 50  0001 C CNN
-	1    3600 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E40C0E4
-P 4650 4350
-AR Path="/5E33202B/5E40C0E4" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E40C0E4" Ref="#PWR0193"  Part="1" 
-F 0 "#PWR0193" H 4650 4100 50  0001 C CNN
-F 1 "GND" H 4655 4177 50  0000 C CNN
-F 2 "" H 4650 4350 50  0001 C CNN
-F 3 "" H 4650 4350 50  0001 C CNN
-	1    4650 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4250 4650 4250
-Wire Wire Line
-	4650 5050 4650 4950
-$Comp
-L Connector_Generic:Conn_01x05 J12
-U 1 1 5E4172AE
-P 3600 5150
-F 0 "J12" H 3518 5567 50  0000 C CNN
-F 1 "Conn_01x05" H 3518 5476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3600 5150 50  0001 C CNN
-F 3 "~" H 3600 5150 50  0001 C CNN
-	1    3600 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E4172B4
-P 4650 5050
-AR Path="/5E33202B/5E4172B4" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E4172B4" Ref="#PWR0194"  Part="1" 
-F 0 "#PWR0194" H 4650 4800 50  0001 C CNN
-F 1 "GND" H 4655 4877 50  0000 C CNN
-F 2 "" H 4650 5050 50  0001 C CNN
-F 3 "" H 4650 5050 50  0001 C CNN
-	1    4650 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4950 4650 4950
-Wire Wire Line
-	6350 1550 6350 1450
-$Comp
-L Connector_Generic:Conn_01x05 J13
-U 1 1 5E426FA2
-P 5300 1650
-F 0 "J13" H 5218 2067 50  0000 C CNN
-F 1 "Conn_01x05" H 5218 1976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 1650 50  0001 C CNN
-F 3 "~" H 5300 1650 50  0001 C CNN
-	1    5300 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E426FA8
-P 6350 1550
-AR Path="/5E33202B/5E426FA8" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E426FA8" Ref="#PWR0195"  Part="1" 
-F 0 "#PWR0195" H 6350 1300 50  0001 C CNN
-F 1 "GND" H 6355 1377 50  0000 C CNN
-F 2 "" H 6350 1550 50  0001 C CNN
-F 3 "" H 6350 1550 50  0001 C CNN
-	1    6350 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 1450 6350 1450
-Wire Wire Line
-	6350 2250 6350 2150
-$Comp
-L Connector_Generic:Conn_01x05 J14
-U 1 1 5E42CC8C
-P 5300 2350
-F 0 "J14" H 5218 2767 50  0000 C CNN
-F 1 "Conn_01x05" H 5218 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 2350 50  0001 C CNN
-F 3 "~" H 5300 2350 50  0001 C CNN
-	1    5300 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E42CC92
-P 6350 2250
-AR Path="/5E33202B/5E42CC92" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E42CC92" Ref="#PWR0196"  Part="1" 
-F 0 "#PWR0196" H 6350 2000 50  0001 C CNN
-F 1 "GND" H 6355 2077 50  0000 C CNN
-F 2 "" H 6350 2250 50  0001 C CNN
-F 3 "" H 6350 2250 50  0001 C CNN
-	1    6350 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2150 6350 2150
-Wire Wire Line
-	6350 2950 6350 2850
-$Comp
-L Connector_Generic:Conn_01x05 J15
-U 1 1 5E43289E
-P 5300 3050
-F 0 "J15" H 5218 3467 50  0000 C CNN
-F 1 "Conn_01x05" H 5218 3376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 3050 50  0001 C CNN
-F 3 "~" H 5300 3050 50  0001 C CNN
-	1    5300 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E4328A4
-P 6350 2950
-AR Path="/5E33202B/5E4328A4" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E4328A4" Ref="#PWR0197"  Part="1" 
-F 0 "#PWR0197" H 6350 2700 50  0001 C CNN
-F 1 "GND" H 6355 2777 50  0000 C CNN
-F 2 "" H 6350 2950 50  0001 C CNN
-F 3 "" H 6350 2950 50  0001 C CNN
-	1    6350 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2850 6350 2850
-Wire Wire Line
-	6350 3650 6350 3550
-$Comp
-L Connector_Generic:Conn_01x05 J16
-U 1 1 5E43897E
-P 5300 3750
-F 0 "J16" H 5218 4167 50  0000 C CNN
-F 1 "Conn_01x05" H 5218 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 3750 50  0001 C CNN
-F 3 "~" H 5300 3750 50  0001 C CNN
-	1    5300 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E438984
-P 6350 3650
-AR Path="/5E33202B/5E438984" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E438984" Ref="#PWR0198"  Part="1" 
-F 0 "#PWR0198" H 6350 3400 50  0001 C CNN
-F 1 "GND" H 6355 3477 50  0000 C CNN
-F 2 "" H 6350 3650 50  0001 C CNN
-F 3 "" H 6350 3650 50  0001 C CNN
-	1    6350 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 3550 6350 3550
-Wire Wire Line
-	6350 4350 6350 4250
-$Comp
-L Connector_Generic:Conn_01x05 J17
-U 1 1 5E43EA76
-P 5300 4450
-F 0 "J17" H 5218 4867 50  0000 C CNN
-F 1 "Conn_01x05" H 5218 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 4450 50  0001 C CNN
-F 3 "~" H 5300 4450 50  0001 C CNN
-	1    5300 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E43EA7C
-P 6350 4350
-AR Path="/5E33202B/5E43EA7C" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E43EA7C" Ref="#PWR0199"  Part="1" 
-F 0 "#PWR0199" H 6350 4100 50  0001 C CNN
-F 1 "GND" H 6355 4177 50  0000 C CNN
-F 2 "" H 6350 4350 50  0001 C CNN
-F 3 "" H 6350 4350 50  0001 C CNN
-	1    6350 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 4250 6350 4250
-Wire Wire Line
-	6350 5050 6350 4950
-$Comp
-L Connector_Generic:Conn_01x05 J18
-U 1 1 5E444D38
-P 5300 5150
-F 0 "J18" H 5218 5567 50  0000 C CNN
-F 1 "Conn_01x05" H 5218 5476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 5150 50  0001 C CNN
-F 3 "~" H 5300 5150 50  0001 C CNN
-	1    5300 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E444D3E
-P 6350 5050
-AR Path="/5E33202B/5E444D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E444D3E" Ref="#PWR0200"  Part="1" 
-F 0 "#PWR0200" H 6350 4800 50  0001 C CNN
-F 1 "GND" H 6355 4877 50  0000 C CNN
-F 2 "" H 6350 5050 50  0001 C CNN
-F 3 "" H 6350 5050 50  0001 C CNN
-	1    6350 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 4950 6350 4950
-Wire Wire Line
-	8050 1550 8050 1450
-$Comp
-L Connector_Generic:Conn_01x05 J19
-U 1 1 5E44AFBE
-P 7000 1650
-F 0 "J19" H 6918 2067 50  0000 C CNN
-F 1 "Conn_01x05" H 6918 1976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7000 1650 50  0001 C CNN
-F 3 "~" H 7000 1650 50  0001 C CNN
-	1    7000 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E44AFC4
-P 8050 1550
-AR Path="/5E33202B/5E44AFC4" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E44AFC4" Ref="#PWR0201"  Part="1" 
-F 0 "#PWR0201" H 8050 1300 50  0001 C CNN
-F 1 "GND" H 8055 1377 50  0000 C CNN
-F 2 "" H 8050 1550 50  0001 C CNN
-F 3 "" H 8050 1550 50  0001 C CNN
-	1    8050 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 1450 8050 1450
-Wire Wire Line
-	8050 2250 8050 2150
-$Comp
-L Connector_Generic:Conn_01x05 J20
-U 1 1 5E45149E
-P 7000 2350
-F 0 "J20" H 6918 2767 50  0000 C CNN
-F 1 "Conn_01x05" H 6918 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7000 2350 50  0001 C CNN
-F 3 "~" H 7000 2350 50  0001 C CNN
-	1    7000 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E4514A4
-P 8050 2250
-AR Path="/5E33202B/5E4514A4" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E4514A4" Ref="#PWR0202"  Part="1" 
-F 0 "#PWR0202" H 8050 2000 50  0001 C CNN
-F 1 "GND" H 8055 2077 50  0000 C CNN
-F 2 "" H 8050 2250 50  0001 C CNN
-F 3 "" H 8050 2250 50  0001 C CNN
-	1    8050 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 2150 8050 2150
-Wire Wire Line
-	8050 2950 8050 2850
-$Comp
-L Connector_Generic:Conn_01x05 J21
-U 1 1 5E457CCA
-P 7000 3050
-F 0 "J21" H 6918 3467 50  0000 C CNN
-F 1 "Conn_01x05" H 6918 3376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7000 3050 50  0001 C CNN
-F 3 "~" H 7000 3050 50  0001 C CNN
-	1    7000 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E457CD0
-P 8050 2950
-AR Path="/5E33202B/5E457CD0" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E457CD0" Ref="#PWR0203"  Part="1" 
-F 0 "#PWR0203" H 8050 2700 50  0001 C CNN
-F 1 "GND" H 8055 2777 50  0000 C CNN
-F 2 "" H 8050 2950 50  0001 C CNN
-F 3 "" H 8050 2950 50  0001 C CNN
-	1    8050 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 2850 8050 2850
-Wire Wire Line
-	8050 3650 8050 3550
-$Comp
-L Connector_Generic:Conn_01x05 J22
-U 1 1 5E45E728
-P 7000 3750
-F 0 "J22" H 6918 4167 50  0000 C CNN
-F 1 "Conn_01x05" H 6918 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7000 3750 50  0001 C CNN
-F 3 "~" H 7000 3750 50  0001 C CNN
-	1    7000 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E45E72E
-P 8050 3650
-AR Path="/5E33202B/5E45E72E" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E45E72E" Ref="#PWR0204"  Part="1" 
-F 0 "#PWR0204" H 8050 3400 50  0001 C CNN
-F 1 "GND" H 8055 3477 50  0000 C CNN
-F 2 "" H 8050 3650 50  0001 C CNN
-F 3 "" H 8050 3650 50  0001 C CNN
-	1    8050 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 3550 8050 3550
-Wire Wire Line
-	8050 4350 8050 4250
-$Comp
-L Connector_Generic:Conn_01x05 J23
-U 1 1 5E465402
-P 7000 4450
-F 0 "J23" H 6918 4867 50  0000 C CNN
-F 1 "Conn_01x05" H 6918 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7000 4450 50  0001 C CNN
-F 3 "~" H 7000 4450 50  0001 C CNN
-	1    7000 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E465408
-P 8050 4350
-AR Path="/5E33202B/5E465408" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E465408" Ref="#PWR0205"  Part="1" 
-F 0 "#PWR0205" H 8050 4100 50  0001 C CNN
-F 1 "GND" H 8055 4177 50  0000 C CNN
-F 2 "" H 8050 4350 50  0001 C CNN
-F 3 "" H 8050 4350 50  0001 C CNN
-	1    8050 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 4250 8050 4250
-Wire Wire Line
-	8050 5050 8050 4950
-$Comp
-L Connector_Generic:Conn_01x05 J24
-U 1 1 5E46C116
-P 7000 5150
-F 0 "J24" H 6918 5567 50  0000 C CNN
-F 1 "Conn_01x05" H 6918 5476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7000 5150 50  0001 C CNN
-F 3 "~" H 7000 5150 50  0001 C CNN
-	1    7000 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E46C11C
-P 8050 5050
-AR Path="/5E33202B/5E46C11C" Ref="#PWR?"  Part="1" 
-AR Path="/5F75E8F5/5E46C11C" Ref="#PWR0206"  Part="1" 
-F 0 "#PWR0206" H 8050 4800 50  0001 C CNN
-F 1 "GND" H 8055 4877 50  0000 C CNN
-F 2 "" H 8050 5050 50  0001 C CNN
-F 3 "" H 8050 5050 50  0001 C CNN
-	1    8050 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 4950 8050 4950
+	10550 4100 10450 4100
 $EndSCHEMATC

@@ -33,7 +33,19 @@
       )
     )
     (boundary
-      (path pcb 0  247336 -30018.9  247668 -30075.2  247991 -30168.3  248302 -30297.1
+      (path pcb 0  59284.6 -30020.4  59563.5 -30081  59830.8 -30180.7  60081.3 -30317.5
+            60309.7 -30488.5  60511.5 -30690.3  60682.5 -30918.7  60819.3 -31169.2
+            60919 -31436.5  60979.6 -31715.4  61000 -32000  61000 -52000
+            61020.4 -52284.6  61081 -52563.5  61180.7 -52830.8  61317.5 -53081.3
+            61488.5 -53309.7  61690.3 -53511.5  61918.7 -53682.5  62169.2 -53819.3
+            62436.5 -53919  62715.4 -53979.6  63000 -54000  99000 -54000
+            99284.6 -53979.6  99563.5 -53919  99830.8 -53819.3  100081 -53682.5
+            100310 -53511.5  100511 -53309.7  100683 -53081.3  100819 -52830.8
+            100919 -52563.5  100980 -52284.6  101000 -52000  101000 -32000
+            101020 -31715.4  101081 -31436.5  101181 -31169.2  101317 -30918.7
+            101489 -30690.3  101690 -30488.5  101919 -30317.5  102169 -30180.7
+            102437 -30081  102715 -30020.4  103000 -30000  247000 -30000
+            247336 -30018.9  247668 -30075.2  247991 -30168.3  248302 -30297.1
             248596 -30459.8  248870 -30654.5  249121 -30878.7  249345 -31129.5
             249540 -31403.9  249703 -31698.3  249832 -32009.2  249925 -32332.4
             249981 -32664.1  250000 -33000  250000 -127000  249981 -127336
@@ -47,13 +59,9 @@
             50000 -33000  50018.9 -32664.1  50075.2 -32332.4  50168.3 -32009.2
             50297.1 -31698.3  50459.8 -31403.9  50654.5 -31129.5  50878.7 -30878.7
             51129.5 -30654.5  51403.9 -30459.8  51698.3 -30297.1  52009.2 -30168.3
-            52332.4 -30075.2  52664.1 -30018.9  53000 -30000  247000 -30000
-            247336 -30018.9)
+            52332.4 -30075.2  52664.1 -30018.9  53000 -30000  59000 -30000
+            59284.6 -30020.4)
     )
-    (plane GND (polygon In1.Cu 0  249936 -130048  50038 -130048  50038 -29972  249936 -29972
-            249936 -130048))
-    (plane +3V3 (polygon In2.Cu 0  249936 -130048  50038 -130048  50038 -29972  249936 -29972
-            249936 -130048))
     (via "Via[0-3]_800:400_um")
     (rule
       (width 250)
@@ -63,6 +71,23 @@
     )
   )
   (placement
+    (component footprint:CoraZ7_stack
+      (place U33 62179.2 -132004 front 0 (PN "Digilent-CoraZ7"))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical
+      (place J31 127000 -38100 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J42 228600 -124460 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J41 208280 -124460 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J40 187960 -124460 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J39 167640 -124460 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J38 147320 -124460 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J37 127000 -124460 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J36 228600 -38100 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J35 208280 -38100 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J34 187960 -38100 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J33 167640 -38100 front 90 (PN Conn_02x05_Top_Bottom))
+      (place J32 147320 -38100 front 90 (PN Conn_02x05_Top_Bottom))
+    )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
       (place J30 53975 -107950 front 90 (PN Conn_01x03_Male))
       (place J29 59055 -104140 front 270 (PN Conn_01x03_Male))
@@ -598,6 +623,8 @@
       (place U23 231140 -67310 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U25 129540 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U27 149860 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
+      (place U29 170180 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
+      (place U31 190500 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U34 190500 -107950 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U36 210820 -107823 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U38 231140 -107950 front 90 (PN "AD7991YRJZ-1500RL7"))
@@ -606,39 +633,6 @@
       (place U44 210820 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U46 129540 -107950 front 90 (PN "AD7991YRJZ-1500RL7"))
       (place U48 149860 -108077 front 90 (PN "AD7991YRJZ-1500RL7"))
-    )
-    (component "Package_TO_SOT_SMD:SOT-23-8::1"
-      (place U29 170180 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
-      (place U31 190500 -87630 front 90 (PN "AD7991YRJZ-1500RL7"))
-    )
-    (component footprint:CoraZ7
-      (place U33 61595 -81280 front 0 (PN "Digilent-CoraZ7"))
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (place J1 127000 -33020 front 90 (PN Conn_01x05))
-      (place J2 147320 -33020 front 90 (PN Conn_01x05))
-      (place J3 167640 -33020 front 90 (PN Conn_01x05))
-      (place J4 187960 -33020 front 90 (PN Conn_01x05))
-      (place J5 208280 -33020 front 90 (PN Conn_01x05))
-      (place J6 228600 -33020 front 90 (PN Conn_01x05))
-      (place J7 127000 -35560 front 90 (PN Conn_01x05))
-      (place J8 147320 -35560 front 90 (PN Conn_01x05))
-      (place J9 167640 -35560 front 90 (PN Conn_01x05))
-      (place J10 187960 -35560 front 90 (PN Conn_01x05))
-      (place J11 208280 -35560 front 90 (PN Conn_01x05))
-      (place J12 228600 -35560 front 90 (PN Conn_01x05))
-      (place J13 127000 -124460 front 90 (PN Conn_01x05))
-      (place J14 147320 -124460 front 90 (PN Conn_01x05))
-      (place J15 167640 -124460 front 90 (PN Conn_01x05))
-      (place J16 187960 -124460 front 90 (PN Conn_01x05))
-      (place J17 208280 -124460 front 90 (PN Conn_01x05))
-      (place J18 228600 -124460 front 90 (PN Conn_01x05))
-      (place J19 127000 -127000 front 90 (PN Conn_01x05))
-      (place J20 147320 -127000 front 90 (PN Conn_01x05))
-      (place J21 167640 -127000 front 90 (PN Conn_01x05))
-      (place J22 187960 -127000 front 90 (PN Conn_01x05))
-      (place J23 208280 -127000 front 90 (PN Conn_01x05))
-      (place J24 228600 -127000 front 90 (PN Conn_01x05))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
       (place J25 59055 -123825 front 270 (PN Conn_02x03_Odd_Even))
@@ -652,6 +646,120 @@
     )
   )
   (library
+    (image footprint:CoraZ7_stack
+      (outline (path signal 120  21000 80000  21000 102000))
+      (outline (path signal 120  37000 80000  21000 80000))
+      (outline (path signal 120  37000 102000  37000 80000))
+      (outline (path signal 120  21000 102000  37000 102000))
+      (outline (path signal 120  0 0  0 102000))
+      (outline (path signal 120  58000 0  0 0))
+      (outline (path signal 120  58000 102000  58000 0))
+      (outline (path signal 120  0 102000  58000 102000))
+      (outline (path signal 120  39000 102000  19000 102000))
+      (pin Round[A]Pad_1524_um 74 56500 53050)
+      (pin Round[A]Pad_1524_um 73 56500 50510)
+      (pin Round[A]Pad_1524_um 72 56500 47970)
+      (pin Round[A]Pad_1524_um 71 56500 45430)
+      (pin Round[A]Pad_1524_um 70 56500 42890)
+      (pin Round[A]Pad_1524_um 69 56500 40350)
+      (pin Round[A]Pad_1524_um 68 56500 37810)
+      (pin Round[A]Pad_1524_um 67 56500 35270)
+      (pin Round[A]Pad_1524_um 66 56500 32730)
+      (pin Round[A]Pad_1524_um 65 56500 30190)
+      (pin Round[A]Pad_1524_um 64 56500 27650)
+      (pin Round[A]Pad_1524_um 63 56500 25110)
+      (pin Round[A]Pad_1524_um 62 56500 22570)
+      (pin Round[A]Pad_1524_um 61 56500 20030)
+      (pin Round[A]Pad_1524_um 60 56500 17490)
+      (pin Round[A]Pad_1524_um 59 56500 14950)
+      (pin Oval[A]Pad_1600x1600_um 2 50856 16824)
+      (pin Oval[A]Pad_1600x1600_um 1 50856 14284)
+      (pin Oval[A]Pad_1600x1600_um 17 50856 56444)
+      (pin Oval[A]Pad_1600x1600_um 16 50856 53904)
+      (pin Oval[A]Pad_1600x1600_um 15 50856 51364)
+      (pin Oval[A]Pad_1600x1600_um 14 50856 48824)
+      (pin Oval[A]Pad_1600x1600_um 13 50856 46284)
+      (pin Oval[A]Pad_1600x1600_um 12 50856 43744)
+      (pin Oval[A]Pad_1600x1600_um 11 50856 41204)
+      (pin Oval[A]Pad_1600x1600_um 10 50856 38664)
+      (pin Oval[A]Pad_1600x1600_um 8 50856 32064)
+      (pin Oval[A]Pad_1600x1600_um 7 50856 29524)
+      (pin Oval[A]Pad_1600x1600_um 6 50856 26984)
+      (pin Oval[A]Pad_1600x1600_um 5 50856 24444)
+      (pin Oval[A]Pad_1600x1600_um 4 50856 21904)
+      (pin Oval[A]Pad_1600x1600_um 3 50856 19364)
+      (pin Oval[A]Pad_1600x1600_um 9 50856 36128)
+      (pin Oval[A]Pad_1600x1600_um 18 50856 58988)
+      (pin Oval[A]Pad_1600x1600_um 19 48316 14284)
+      (pin Oval[A]Pad_1600x1600_um 20 48316 16824)
+      (pin Oval[A]Pad_1600x1600_um 21 48316 19364)
+      (pin Oval[A]Pad_1600x1600_um 22 48316 21904)
+      (pin Oval[A]Pad_1600x1600_um 23 48316 24444)
+      (pin Oval[A]Pad_1600x1600_um 24 48316 26984)
+      (pin Oval[A]Pad_1600x1600_um 25 48316 29524)
+      (pin Oval[A]Pad_1600x1600_um 26 48316 32064)
+      (pin Oval[A]Pad_1600x1600_um 27 48316 36128)
+      (pin Oval[A]Pad_1600x1600_um 28 48316 38668)
+      (pin Oval[A]Pad_1600x1600_um 29 48316 41208)
+      (pin Oval[A]Pad_1600x1600_um 30 48316 43748)
+      (pin Oval[A]Pad_1600x1600_um 31 48316 46288)
+      (pin Oval[A]Pad_1600x1600_um 32 48316 48828)
+      (pin Oval[A]Pad_1600x1600_um 33 48316 51368)
+      (pin Oval[A]Pad_1600x1600_um 34 48316 53908)
+      (pin Oval[A]Pad_1600x1600_um 35 5136 14284)
+      (pin Oval[A]Pad_1600x1600_um 36 5136 16824)
+      (pin Oval[A]Pad_1600x1600_um 37 5136 19364)
+      (pin Oval[A]Pad_1600x1600_um 38 5136 21904)
+      (pin Oval[A]Pad_1600x1600_um 39 5136 24444)
+      (pin Oval[A]Pad_1600x1600_um 40 5136 26984)
+      (pin Oval[A]Pad_1600x1600_um 41 5136 32064)
+      (pin Oval[A]Pad_1600x1600_um 42 5136 34604)
+      (pin Oval[A]Pad_1600x1600_um 43 5136 37144)
+      (pin Oval[A]Pad_1600x1600_um 44 5136 39684)
+      (pin Oval[A]Pad_1600x1600_um 45 2596 14284)
+      (pin Oval[A]Pad_1600x1600_um 46 2596 16824)
+      (pin Oval[A]Pad_1600x1600_um 47 2596 19364)
+      (pin Oval[A]Pad_1600x1600_um 48 2596 21904)
+      (pin Oval[A]Pad_1600x1600_um 49 2596 24444)
+      (pin Oval[A]Pad_1600x1600_um 50 2596 26984)
+      (pin Oval[A]Pad_1600x1600_um 51 2596 32064)
+      (pin Oval[A]Pad_1600x1600_um 52 2596 34604)
+      (pin Oval[A]Pad_1600x1600_um 53 2596 37144)
+      (pin Oval[A]Pad_1600x1600_um 54 2596 39684)
+      (pin Oval[A]Pad_1600x1600_um 55 2596 42224)
+      (pin Oval[A]Pad_1600x1600_um 56 2596 44764)
+      (pin Oval[A]Pad_1600x1600_um 57 2596 47304)
+      (pin Oval[A]Pad_1600x1600_um 58 2596 49844)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (outline (path signal 50  4350 -11950  4350 1800))
+      (outline (path signal 50  -1800 -11950  4350 -11950))
+      (outline (path signal 50  -1800 1800  -1800 -11950))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  3870 1330  3870 -11490))
+      (outline (path signal 120  -1330 -1270  -1330 -11490))
+      (outline (path signal 120  -1330 -11490  3870 -11490))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 100  -1270 -11430  -1270 0))
+      (outline (path signal 100  3810 -11430  -1270 -11430))
+      (outline (path signal 100  3810 1270  3810 -11430))
+      (outline (path signal 100  0 1270  3810 1270))
+      (pin Oval[A]Pad_1700x1700_um 10 2540 -10160)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
       (outline (path signal 50  1800 1800  -1800 1800))
       (outline (path signal 50  1800 -6850  1800 1800))
@@ -736,130 +844,6 @@
       (pin Rect[T]Pad_1060x400_um 3 -1100 -330)
       (pin Rect[T]Pad_1060x400_um 2 -1100 330)
       (pin Rect[T]Pad_1060x400_um 1 -1100 980)
-    )
-    (image "Package_TO_SOT_SMD:SOT-23-8::1"
-      (outline (path signal 120  -900 -1610  900 -1610))
-      (outline (path signal 120  900 1610  -1550 1610))
-      (outline (path signal 50  1900 1800  -1900 1800))
-      (outline (path signal 50  1900 -1800  1900 1800))
-      (outline (path signal 50  -1900 -1800  1900 -1800))
-      (outline (path signal 50  -1900 1800  -1900 -1800))
-      (outline (path signal 100  -900 900  -250 1550))
-      (outline (path signal 100  900 1550  -250 1550))
-      (outline (path signal 100  -900 900  -900 -1550))
-      (outline (path signal 100  900 -1550  -900 -1550))
-      (outline (path signal 100  900 1550  900 -1550))
-      (pin Rect[T]Pad_1060x400_um 1 -1100 980)
-      (pin Rect[T]Pad_1060x400_um 2 -1100 330)
-      (pin Rect[T]Pad_1060x400_um 3 -1100 -330)
-      (pin Rect[T]Pad_1060x400_um 4 -1100 -980)
-      (pin Rect[T]Pad_1060x400_um 5 1100 -980)
-      (pin Rect[T]Pad_1060x400_um 6 1100 -330)
-      (pin Rect[T]Pad_1060x400_um 7 1100 330)
-      (pin Rect[T]Pad_1060x400_um 8 1100 980)
-    )
-    (image footprint:CoraZ7
-      (outline (path signal 120  58420 0  0 0))
-      (outline (path signal 120  0 50800  0 0))
-      (outline (path signal 120  7620 50800  0 50800))
-      (outline (path signal 120  58420 50800  7620 50800))
-      (outline (path signal 120  58420 0  58420 50800))
-      (pin Oval[A]Pad_1600x1600_um 58 55850 38148)
-      (pin Oval[A]Pad_1600x1600_um 57 55850 35608)
-      (pin Oval[A]Pad_1600x1600_um 56 55850 33068)
-      (pin Oval[A]Pad_1600x1600_um 55 55850 30528)
-      (pin Oval[A]Pad_1600x1600_um 54 55850 27988)
-      (pin Oval[A]Pad_1600x1600_um 53 55850 25448)
-      (pin Oval[A]Pad_1600x1600_um 52 55850 22908)
-      (pin Oval[A]Pad_1600x1600_um 51 55850 20368)
-      (pin Oval[A]Pad_1600x1600_um 50 55850 15288)
-      (pin Oval[A]Pad_1600x1600_um 49 55850 12748)
-      (pin Oval[A]Pad_1600x1600_um 48 55850 10208)
-      (pin Oval[A]Pad_1600x1600_um 47 55850 7668)
-      (pin Oval[A]Pad_1600x1600_um 46 55850 5128)
-      (pin Oval[A]Pad_1600x1600_um 45 55850 2588)
-      (pin Oval[A]Pad_1600x1600_um 44 53310 27988)
-      (pin Oval[A]Pad_1600x1600_um 43 53310 25448)
-      (pin Oval[A]Pad_1600x1600_um 42 53310 22908)
-      (pin Oval[A]Pad_1600x1600_um 41 53310 20368)
-      (pin Oval[A]Pad_1600x1600_um 40 53310 15288)
-      (pin Oval[A]Pad_1600x1600_um 39 53310 12748)
-      (pin Oval[A]Pad_1600x1600_um 38 53310 10208)
-      (pin Oval[A]Pad_1600x1600_um 37 53310 7668)
-      (pin Oval[A]Pad_1600x1600_um 36 53310 5128)
-      (pin Oval[A]Pad_1600x1600_um 35 53310 2588)
-      (pin Oval[A]Pad_1600x1600_um 34 10130 42212)
-      (pin Oval[A]Pad_1600x1600_um 33 10130 39672)
-      (pin Oval[A]Pad_1600x1600_um 32 10130 37132)
-      (pin Oval[A]Pad_1600x1600_um 31 10130 34592)
-      (pin Oval[A]Pad_1600x1600_um 30 10130 32052)
-      (pin Oval[A]Pad_1600x1600_um 29 10130 29512)
-      (pin Oval[A]Pad_1600x1600_um 28 10130 26972)
-      (pin Oval[A]Pad_1600x1600_um 27 10130 24432)
-      (pin Oval[A]Pad_1600x1600_um 26 10130 20368)
-      (pin Oval[A]Pad_1600x1600_um 25 10130 17828)
-      (pin Oval[A]Pad_1600x1600_um 24 10130 15288)
-      (pin Oval[A]Pad_1600x1600_um 23 10130 12748)
-      (pin Oval[A]Pad_1600x1600_um 22 10130 10208)
-      (pin Oval[A]Pad_1600x1600_um 21 10130 7668)
-      (pin Oval[A]Pad_1600x1600_um 20 10130 5128)
-      (pin Oval[A]Pad_1600x1600_um 19 10130 2588)
-      (pin Oval[A]Pad_1600x1600_um 18 7590 47292)
-      (pin Oval[A]Pad_1600x1600_um 9 7590 24432)
-      (pin Oval[A]Pad_1600x1600_um 3 7590 7668)
-      (pin Oval[A]Pad_1600x1600_um 4 7590 10208)
-      (pin Oval[A]Pad_1600x1600_um 5 7590 12748)
-      (pin Oval[A]Pad_1600x1600_um 6 7590 15288)
-      (pin Oval[A]Pad_1600x1600_um 7 7590 17828)
-      (pin Oval[A]Pad_1600x1600_um 8 7590 20368)
-      (pin Oval[A]Pad_1600x1600_um 10 7590 26968)
-      (pin Oval[A]Pad_1600x1600_um 11 7590 29508)
-      (pin Oval[A]Pad_1600x1600_um 12 7590 32048)
-      (pin Oval[A]Pad_1600x1600_um 13 7590 34588)
-      (pin Oval[A]Pad_1600x1600_um 14 7590 37128)
-      (pin Oval[A]Pad_1600x1600_um 15 7590 39668)
-      (pin Oval[A]Pad_1600x1600_um 16 7590 42208)
-      (pin Oval[A]Pad_1600x1600_um 17 7590 44748)
-      (pin Oval[A]Pad_1600x1600_um 1 7590 2588)
-      (pin Oval[A]Pad_1600x1600_um 2 7590 5128)
-      (pin Round[A]Pad_1524_um 59 1946 3254)
-      (pin Round[A]Pad_1524_um 60 1946 5794)
-      (pin Round[A]Pad_1524_um 61 1946 8334)
-      (pin Round[A]Pad_1524_um 62 1946 10874)
-      (pin Round[A]Pad_1524_um 63 1946 13414)
-      (pin Round[A]Pad_1524_um 64 1946 15954)
-      (pin Round[A]Pad_1524_um 65 1946 18494)
-      (pin Round[A]Pad_1524_um 66 1946 21034)
-      (pin Round[A]Pad_1524_um 67 1946 23574)
-      (pin Round[A]Pad_1524_um 68 1946 26114)
-      (pin Round[A]Pad_1524_um 69 1946 28654)
-      (pin Round[A]Pad_1524_um 70 1946 31194)
-      (pin Round[A]Pad_1524_um 71 1946 33734)
-      (pin Round[A]Pad_1524_um 72 1946 36274)
-      (pin Round[A]Pad_1524_um 73 1946 38814)
-      (pin Round[A]Pad_1524_um 74 1946 41354)
-    )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  1800 -11950  1800 1800))
-      (outline (path signal 50  -1800 -11950  1800 -11950))
-      (outline (path signal 50  -1800 1800  -1800 -11950))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  1330 -1270  1330 -11490))
-      (outline (path signal 120  -1330 -1270  -1330 -11490))
-      (outline (path signal 120  -1330 -11490  1330 -11490))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  -1270 -11430  -1270 635))
-      (outline (path signal 100  1270 -11430  -1270 -11430))
-      (outline (path signal 100  1270 1270  1270 -11430))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
-      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
       (outline (path signal 50  4350 1800  -1800 1800))
@@ -1055,26 +1039,24 @@
   )
   (network
     (net GND
-      (pins C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 C11-2 C12-2 C13-2 C14-2 C15-2 C16-2 C21-2
-        C22-2 C23-2 C24-2 C25-2 C26-2 C31-2 C32-2 C33-2 C34-2 C35-2 C36-2 C41-2 C42-2
-        C43-2 C44-2 C45-2 C46-2 C51-2 C52-2 C53-2 C54-2 C55-2 C56-2 C61-2 C62-2 C63-2
-        C64-2 C65-2 C66-2 C71-2 C72-2 C73-2 C74-2 C75-2 C76-2 C81-2 C82-2 C83-2 C84-2
-        C85-2 C86-2 C91-2 C92-2 C93-2 C94-2 C95-2 C96-2 C101-2 C102-2 C103-2 C104-2
-        C105-2 C106-2 C111-2 C112-2 C113-2 C114-2 C115-2 C116-2 C121-2 C122-2 C123-2
-        C124-2 C125-2 C126-2 C131-2 C132-2 C133-2 C134-2 C135-2 C136-2 C141-2 C142-2
-        C143-2 C144-2 C145-2 C146-2 C151-2 C152-2 C153-2 C154-2 C155-2 C156-2 C161-2
-        C162-2 C163-2 C164-2 C165-2 C166-2 C171-2 C172-2 C173-2 C174-2 C175-2 C176-2
-        C181-2 C182-2 C183-2 C184-2 C185-2 C186-2 C191-2 C192-2 C193-2 C194-2 C195-2
-        C196-2 C201-2 C202-2 C203-2 C204-2 C205-2 C206-2 C211-2 C212-2 C213-2 C214-2
-        C215-2 C216-2 C221-2 C222-2 C224-2 C225-2 C226-2 C231-2 C232-2 C233-2 C234-2
-        C235-2 C236-2 U2-11 U4-11 U6-11 U8-11 U10-11 U12-11 U14-11 U16-11 U18-11 U20-11
-        U22-11 U24-11 U26-11 U28-11 U30-11 U32-11 U35-11 U37-11 U39-11 U41-11 U43-11
-        U45-11 U47-11 U49-11 U1-7 U3-7 U5-7 U7-7 U9-7 U11-7 U13-7 U15-7 U17-7 U19-7
-        U21-7 U23-7 U25-7 U27-7 U29-7 U31-7 U34-7 U36-7 U38-7 U40-7 U42-7 U44-7 U46-7
-        U48-7 C223-2 U33-53 U33-52 U33-15 U33-60 U33-73 J1-1 J2-1 J3-1 J4-1 J5-1 J6-1
-        J7-1 J8-1 J9-1 J10-1 J11-1 J12-1 J13-1 J14-1 J15-1 J16-1 J17-1 J18-1 J19-1
-        J20-1 J21-1 J22-1 J23-1 J24-1 C241-2 C242-2 C243-2 C244-2 C245-2 C246-2 J27-1
-        U50-2 U51-2)
+      (pins U33-73 U33-60 U33-15 U33-52 U33-53 C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 C11-2
+        C12-2 C13-2 C14-2 C15-2 C16-2 C21-2 C22-2 C23-2 C24-2 C25-2 C26-2 C31-2 C32-2
+        C33-2 C34-2 C35-2 C36-2 C41-2 C42-2 C43-2 C44-2 C45-2 C46-2 C51-2 C52-2 C53-2
+        C54-2 C55-2 C56-2 C61-2 C62-2 C63-2 C64-2 C65-2 C66-2 C71-2 C72-2 C73-2 C74-2
+        C75-2 C76-2 C81-2 C82-2 C83-2 C84-2 C85-2 C86-2 C91-2 C92-2 C93-2 C94-2 C95-2
+        C96-2 C101-2 C102-2 C103-2 C104-2 C105-2 C106-2 C111-2 C112-2 C113-2 C114-2
+        C115-2 C116-2 C121-2 C122-2 C123-2 C124-2 C125-2 C126-2 C131-2 C132-2 C133-2
+        C134-2 C135-2 C136-2 C141-2 C142-2 C143-2 C144-2 C145-2 C146-2 C151-2 C152-2
+        C153-2 C154-2 C155-2 C156-2 C161-2 C162-2 C163-2 C164-2 C165-2 C166-2 C171-2
+        C172-2 C173-2 C174-2 C175-2 C176-2 C181-2 C182-2 C183-2 C184-2 C185-2 C186-2
+        C191-2 C192-2 C193-2 C194-2 C195-2 C196-2 C201-2 C202-2 C203-2 C204-2 C205-2
+        C206-2 C211-2 C212-2 C213-2 C214-2 C215-2 C216-2 C221-2 C222-2 C224-2 C225-2
+        C226-2 C231-2 C232-2 C233-2 C234-2 C235-2 C236-2 U2-11 U4-11 U6-11 U8-11 U10-11
+        U12-11 U14-11 U16-11 U18-11 U20-11 U22-11 U24-11 U26-11 U28-11 U30-11 U32-11
+        U35-11 U37-11 U39-11 U41-11 U43-11 U45-11 U47-11 U49-11 U1-7 U3-7 U5-7 U7-7
+        U9-7 U11-7 U13-7 U15-7 U17-7 U19-7 U21-7 U23-7 U25-7 U27-7 U29-7 U31-7 U34-7
+        U36-7 U38-7 U40-7 U42-7 U44-7 U46-7 U48-7 C223-2 C241-2 C242-2 C243-2 C244-2
+        C245-2 C246-2 J27-1 U50-2 U51-2)
     )
     (net "Net-(C3-Pad1)"
       (pins C3-1 R1-2 U2-3)
@@ -1941,313 +1923,280 @@
       (pins C240-1 U49-14 U49-13 U48-6)
     )
     (net VIN4_0
-      (pins R5-1 J1-5)
+      (pins J31-10 R5-1)
     )
     (net VIN3_0
-      (pins R6-1 J1-4)
+      (pins J31-8 R6-1)
     )
     (net VIN2_0
-      (pins R7-1 J1-3)
+      (pins J31-6 R7-1)
     )
     (net VIN1_0
-      (pins R8-1 J1-2)
+      (pins J31-4 R8-1)
     )
     (net VIN4_1
-      (pins R13-1 J2-5)
+      (pins J32-10 R13-1)
     )
     (net VIN3_1
-      (pins R14-1 J2-4)
+      (pins J32-8 R14-1)
     )
     (net VIN2_1
-      (pins R15-1 J2-3)
+      (pins J32-6 R15-1)
     )
     (net VIN1_1
-      (pins R16-1 J2-2)
+      (pins J32-4 R16-1)
     )
     (net VIN4_2
-      (pins R21-1 J3-5)
+      (pins J33-10 R21-1)
     )
     (net VIN3_2
-      (pins R22-1 J3-4)
+      (pins J33-8 R22-1)
     )
     (net VIN2_2
-      (pins R23-1 J3-3)
+      (pins J33-6 R23-1)
     )
     (net VIN1_2
-      (pins R24-1 J3-2)
+      (pins J33-4 R24-1)
     )
     (net VIN4_3
-      (pins R29-1 J4-5)
+      (pins J34-10 R29-1)
     )
     (net VIN3_3
-      (pins R30-1 J4-4)
+      (pins J34-8 R30-1)
     )
     (net VIN2_3
-      (pins R31-1 J4-3)
+      (pins J34-6 R31-1)
     )
     (net VIN1_3
-      (pins R32-1 J4-2)
+      (pins J34-4 R32-1)
     )
     (net VIN4_4
-      (pins R37-1 J5-5)
+      (pins J35-10 R37-1)
     )
     (net VIN3_4
-      (pins R38-1 J5-4)
+      (pins J35-8 R38-1)
     )
     (net VIN2_4
-      (pins R39-1 J5-3)
+      (pins J35-6 R39-1)
     )
     (net VIN1_4
-      (pins R40-1 J5-2)
+      (pins J35-4 R40-1)
     )
     (net VIN4_5
-      (pins R45-1 J6-5)
+      (pins J36-10 R45-1)
     )
     (net VIN3_5
-      (pins R46-1 J6-4)
+      (pins J36-8 R46-1)
     )
     (net VIN2_5
-      (pins R47-1 J6-3)
+      (pins J36-6 R47-1)
     )
     (net VIN1_5
-      (pins R48-1 J6-2)
+      (pins J36-4 R48-1)
     )
     (net VIN4_6
-      (pins R53-1 J7-5)
+      (pins J31-9 R53-1)
     )
     (net VIN3_6
-      (pins R54-1 J7-4)
+      (pins J31-7 R54-1)
     )
     (net VIN2_6
-      (pins R55-1 J7-3)
+      (pins J31-5 R55-1)
     )
     (net VIN1_6
-      (pins R56-1 J7-2)
+      (pins J31-3 R56-1)
     )
     (net VIN4_7
-      (pins R61-1 J8-5)
+      (pins J32-9 R61-1)
     )
     (net VIN3_7
-      (pins R62-1 J8-4)
+      (pins J32-7 R62-1)
     )
     (net VIN2_7
-      (pins R63-1 J8-3)
+      (pins J32-5 R63-1)
     )
     (net VIN1_7
-      (pins R64-1 J8-2)
+      (pins J32-3 R64-1)
     )
     (net VIN4_8
-      (pins R69-1 J9-5)
+      (pins J33-9 R69-1)
     )
     (net VIN3_8
-      (pins R70-1 J9-4)
+      (pins J33-7 R70-1)
     )
     (net VIN2_8
-      (pins R71-1 J9-3)
+      (pins J33-5 R71-1)
     )
     (net VIN1_8
-      (pins R72-1 J9-2)
+      (pins J33-3 R72-1)
     )
     (net VIN4_9
-      (pins R77-1 J10-5)
+      (pins J34-9 R77-1)
     )
     (net VIN3_9
-      (pins R78-1 J10-4)
+      (pins J34-7 R78-1)
     )
     (net VIN2_9
-      (pins R79-1 J10-3)
+      (pins J34-5 R79-1)
     )
     (net VIN1_9
-      (pins R80-1 J10-2)
+      (pins J34-3 R80-1)
     )
     (net VIN4_10
-      (pins R85-1 J11-5)
+      (pins J35-9 R85-1)
     )
     (net VIN3_10
-      (pins R86-1 J11-4)
+      (pins J35-7 R86-1)
     )
     (net VIN2_10
-      (pins R87-1 J11-3)
+      (pins J35-5 R87-1)
     )
     (net VIN1_10
-      (pins R88-1 J11-2)
+      (pins J35-3 R88-1)
     )
     (net VIN4_11
-      (pins R93-1 J12-5)
+      (pins J36-9 R93-1)
     )
     (net VIN3_11
-      (pins R94-1 J12-4)
+      (pins J36-7 R94-1)
     )
     (net VIN2_11
-      (pins R95-1 J12-3)
+      (pins J36-5 R95-1)
     )
     (net VIN1_11
-      (pins R96-1 J12-2)
+      (pins J36-3 R96-1)
     )
     (net VIN4_12
-      (pins R101-1 J13-5)
+      (pins J37-10 R101-1)
     )
     (net VIN3_12
-      (pins R102-1 J13-4)
+      (pins J37-8 R102-1)
     )
     (net VIN2_12
-      (pins R103-1 J13-3)
+      (pins J37-6 R103-1)
     )
     (net VIN1_12
-      (pins R104-1 J13-2)
+      (pins J37-4 R104-1)
     )
     (net VIN4_13
-      (pins R109-1 J14-5)
+      (pins J38-10 R109-1)
     )
     (net VIN3_13
-      (pins R110-1 J14-4)
+      (pins J38-8 R110-1)
     )
     (net VIN2_13
-      (pins R111-1 J14-3)
+      (pins J38-6 R111-1)
     )
     (net VIN1_13
-      (pins R112-1 J14-2)
+      (pins J38-4 R112-1)
     )
     (net VIN4_14
-      (pins R117-1 J15-5)
+      (pins J39-10 R117-1)
     )
     (net VIN3_14
-      (pins R118-1 J15-4)
+      (pins J39-8 R118-1)
     )
     (net VIN2_14
-      (pins R119-1 J15-3)
+      (pins J39-6 R119-1)
     )
     (net VIN1_14
-      (pins R120-1 J15-2)
+      (pins J39-4 R120-1)
     )
     (net VIN4_15
-      (pins R125-1 J16-5)
+      (pins J40-10 R125-1)
     )
     (net VIN3_15
-      (pins R126-1 J16-4)
+      (pins J40-8 R126-1)
     )
     (net VIN2_15
-      (pins R127-1 J16-3)
+      (pins J40-6 R127-1)
     )
     (net VIN1_15
-      (pins R128-1 J16-2)
+      (pins J40-4 R128-1)
     )
     (net VIN4_21
-      (pins R133-1 J22-5)
+      (pins J40-9 R133-1)
     )
     (net VIN3_21
-      (pins R134-1 J22-4)
+      (pins J40-7 R134-1)
     )
     (net VIN2_21
-      (pins R135-1 J22-3)
+      (pins J40-5 R135-1)
     )
     (net VIN1_21
-      (pins R136-1 J22-2)
+      (pins J40-3 R136-1)
     )
     (net VIN4_22
-      (pins R141-1 J23-5)
+      (pins J41-9 R141-1)
     )
     (net VIN3_22
-      (pins R142-1 J23-4)
+      (pins J41-7 R142-1)
     )
     (net VIN2_22
-      (pins R143-1 J23-3)
+      (pins J41-5 R143-1)
     )
     (net VIN1_22
-      (pins R144-1 J23-2)
+      (pins J41-3 R144-1)
     )
     (net VIN4_23
-      (pins R149-1 J24-5)
+      (pins J42-9 R149-1)
     )
     (net VIN3_23
-      (pins R150-1 J24-4)
+      (pins J42-7 R150-1)
     )
     (net VIN2_23
-      (pins R151-1 J24-3)
+      (pins J42-5 R151-1)
     )
     (net VIN1_23
-      (pins R152-1 J24-2)
+      (pins J42-3 R152-1)
     )
     (net VIN4_20
-      (pins R157-1 J21-5)
+      (pins J39-9 R157-1)
     )
     (net VIN3_20
-      (pins R158-1 J21-4)
+      (pins J39-7 R158-1)
     )
     (net VIN2_20
-      (pins R159-1 J21-3)
+      (pins J39-5 R159-1)
     )
     (net VIN1_20
-      (pins R160-1 J21-2)
+      (pins J39-3 R160-1)
     )
     (net VIN4_16
-      (pins R173-1 J17-5)
+      (pins J41-10 R173-1)
     )
     (net VIN3_16
-      (pins R174-1 J17-4)
+      (pins J41-8 R174-1)
     )
     (net VIN2_16
-      (pins R175-1 J17-3)
+      (pins J41-6 R175-1)
     )
     (net VIN1_16
-      (pins R176-1 J17-2)
+      (pins J41-4 R176-1)
     )
     (net VIN4_18
-      (pins R181-1 J19-5)
+      (pins J37-9 R181-1)
     )
     (net VIN3_18
-      (pins R182-1 J19-4)
+      (pins J37-7 R182-1)
     )
     (net VIN2_18
-      (pins R183-1 J19-3)
+      (pins J37-5 R183-1)
     )
     (net VIN1_18
-      (pins R184-1 J19-2)
+      (pins J37-3 R184-1)
     )
     (net VIN4_19
-      (pins R189-1 J20-5)
+      (pins J38-9 R189-1)
     )
     (net VIN3_19
-      (pins R190-1 J20-4)
+      (pins J38-7 R190-1)
     )
     (net VIN2_19
-      (pins R191-1 J20-3)
+      (pins J38-5 R191-1)
     )
     (net VIN1_19
-      (pins R192-1 J20-2)
-    )
-    (net "Net-(U33-Pad51)"
-      (pins U33-51)
-    )
-    (net "Net-(U33-Pad44)"
-      (pins U33-44)
-    )
-    (net "Net-(U33-Pad43)"
-      (pins U33-43)
-    )
-    (net "Net-(U33-Pad42)"
-      (pins U33-42)
-    )
-    (net "Net-(U33-Pad41)"
-      (pins U33-41)
-    )
-    (net "Net-(U33-Pad40)"
-      (pins U33-40)
-    )
-    (net "Net-(U33-Pad39)"
-      (pins U33-39)
-    )
-    (net "Net-(U33-Pad38)"
-      (pins U33-38)
-    )
-    (net "Net-(U33-Pad37)"
-      (pins U33-37)
-    )
-    (net "Net-(U33-Pad36)"
-      (pins U33-36)
-    )
-    (net "Net-(U33-Pad35)"
-      (pins U33-35)
+      (pins J38-3 R192-1)
     )
     (net "Net-(U33-Pad16)"
       (pins U33-16)
@@ -2256,160 +2205,160 @@
       (pins J28-2 J25-1)
     )
     (net SDA0
-      (pins U1-1 R193-2 U33-34)
+      (pins U33-34 U1-1 R193-2)
     )
     (net SDA1
-      (pins U3-1 R194-2 U33-32)
+      (pins U33-32 U3-1 R194-2)
     )
     (net SDA2
-      (pins U5-1 R195-2 U33-31)
+      (pins U33-31 U5-1 R195-2)
     )
     (net SDA3
-      (pins U7-1 R196-2 U33-30)
+      (pins U33-30 U7-1 R196-2)
     )
     (net SDA4
-      (pins U9-1 R197-2 U33-29)
+      (pins U33-29 U9-1 R197-2)
     )
     (net SDA5
-      (pins U11-1 R198-2 U33-28)
+      (pins U33-28 U11-1 R198-2)
     )
     (net SCL0
-      (pins U1-2 R199-2 U33-33)
+      (pins U33-33 U1-2 R199-2)
     )
     (net SCL1
-      (pins U3-2 R200-2 U33-14)
+      (pins U33-14 U3-2 R200-2)
     )
     (net SCL2
-      (pins U5-2 R201-2 U33-13)
+      (pins U33-13 U5-2 R201-2)
     )
     (net SCL3
-      (pins U7-2 R202-2 U33-12)
+      (pins U33-12 U7-2 R202-2)
     )
     (net SCL4
-      (pins U9-2 R203-2 U33-11)
+      (pins U33-11 U9-2 R203-2)
     )
     (net SCL5
-      (pins U11-2 R204-2 U33-10)
+      (pins U33-10 U11-2 R204-2)
     )
     (net SDA10
-      (pins U21-1 R205-2 U33-23)
+      (pins U33-23 U21-1 R205-2)
     )
     (net SDA11
-      (pins U23-1 R206-2 U33-22)
+      (pins U33-22 U23-1 R206-2)
     )
     (net SDA6
-      (pins U13-1 R207-2 U33-27)
+      (pins U33-27 U13-1 R207-2)
     )
     (net SDA7
-      (pins U15-1 R208-2 U33-26)
+      (pins U33-26 U15-1 R208-2)
     )
     (net SDA8
-      (pins U17-1 R209-2 U33-25)
+      (pins U33-25 U17-1 R209-2)
     )
     (net SDA9
-      (pins U19-1 R210-2 U33-24)
+      (pins U33-24 U19-1 R210-2)
     )
     (net SCL10
-      (pins U21-2 R211-2 U33-5)
+      (pins U33-5 U21-2 R211-2)
     )
     (net SCL11
-      (pins U23-2 R212-2 U33-4)
+      (pins U33-4 U23-2 R212-2)
     )
     (net SCL6
-      (pins U13-2 R213-2 U33-9)
+      (pins U33-9 U13-2 R213-2)
     )
     (net SCL7
-      (pins U15-2 R214-2 U33-8)
+      (pins U33-8 U15-2 R214-2)
     )
     (net SCL8
-      (pins U17-2 R215-2 U33-7)
+      (pins U33-7 U17-2 R215-2)
     )
     (net SCL9
-      (pins U19-2 R216-2 U33-6)
+      (pins U33-6 U19-2 R216-2)
     )
     (net SDA12
-      (pins U25-1 R217-2 U33-21)
+      (pins U33-21 U25-1 R217-2)
     )
     (net SDA13
-      (pins U27-1 R218-2 U33-20)
+      (pins U33-20 U27-1 R218-2)
     )
     (net SDA14
-      (pins U29-1 R219-2 U33-19)
+      (pins U33-19 U29-1 R219-2)
     )
     (net SDA15
-      (pins U31-1 R220-2 U33-72)
+      (pins U33-72 U31-1 R220-2)
     )
     (net SDA16
-      (pins U44-1 R221-2 U33-70)
+      (pins U33-70 U44-1 R221-2)
     )
     (net SDA17
-      (pins U42-1 R222-2 U33-68)
+      (pins U33-68 U42-1 R222-2)
     )
     (net SCL12
-      (pins U25-2 R223-2 U33-3)
+      (pins U33-3 U25-2 R223-2)
     )
     (net SCL13
-      (pins U27-2 R224-2 U33-2)
+      (pins U33-2 U27-2 R224-2)
     )
     (net SCL14
-      (pins U29-2 R225-2 U33-1)
+      (pins U33-1 U29-2 R225-2)
     )
     (net SCL15
-      (pins U31-2 R226-2 U33-71)
+      (pins U33-71 U31-2 R226-2)
     )
     (net SCL16
-      (pins U44-2 R227-2 U33-69)
+      (pins U33-69 U44-2 R227-2)
     )
     (net SCL17
-      (pins U42-2 R228-2 U33-67)
+      (pins U33-67 U42-2 R228-2)
     )
     (net SDA18
-      (pins U46-1 R229-2 U33-66)
+      (pins U33-66 U46-1 R229-2)
     )
     (net SDA19
-      (pins U48-1 R230-2 U33-64)
+      (pins U33-64 U48-1 R230-2)
     )
     (net SDA20
-      (pins U40-1 R231-2 U33-62)
+      (pins U33-62 U40-1 R231-2)
     )
     (net SDA21
-      (pins U34-1 R232-2 U33-50)
+      (pins U33-50 U34-1 R232-2)
     )
     (net SDA22
-      (pins U36-1 R233-2 U33-48)
+      (pins U33-48 U36-1 R233-2)
     )
     (net SDA23
-      (pins U38-1 R234-2 U33-46)
+      (pins U33-46 U38-1 R234-2)
     )
     (net SCL18
-      (pins U46-2 R235-2 U33-65)
+      (pins U33-65 U46-2 R235-2)
     )
     (net SCL19
-      (pins U48-2 R236-2 U33-63)
+      (pins U33-63 U48-2 R236-2)
     )
     (net SCL20
-      (pins U40-2 R237-2 U33-61)
+      (pins U33-61 U40-2 R237-2)
     )
     (net SCL21
-      (pins U34-2 R238-2 U33-49)
+      (pins U33-49 U34-2 R238-2)
     )
     (net SCL22
-      (pins U36-2 R239-2 U33-47)
+      (pins U33-47 U36-2 R239-2)
     )
     (net SCL23
-      (pins U38-2 R240-2 U33-45)
+      (pins U33-45 U38-2 R240-2)
     )
     (net VIN4_17
-      (pins R165-1 J18-5)
+      (pins J42-10 R165-1)
     )
     (net VIN3_17
-      (pins R166-1 J18-4)
+      (pins J42-8 R166-1)
     )
     (net VIN2_17
-      (pins R167-1 J18-3)
+      (pins J42-6 R167-1)
     )
     (net VIN1_17
-      (pins R168-1 J18-2)
+      (pins J42-4 R168-1)
     )
     (net +3V3
       (pins J29-2 C1-1 C2-1 C11-1 C12-1 C21-1 C22-1 C31-1 C32-1 C41-1 C42-1 C51-1
@@ -2454,10 +2403,115 @@
       (pins J30-3 J26-3 J27-2)
     )
     (net 5V_CoraZ7
-      (pins J30-1 J28-1 J26-1 U33-54)
+      (pins U33-54 J30-1 J28-1 J26-1)
     )
     (net 3V3_CoraZ7
-      (pins J29-1 U33-55 U33-59 U33-74)
+      (pins U33-74 U33-59 U33-55 J29-1)
+    )
+    (net "Net-(J31-Pad1)"
+      (pins J31-1)
+    )
+    (net "Net-(J31-Pad2)"
+      (pins J31-2)
+    )
+    (net "Net-(J32-Pad2)"
+      (pins J32-2)
+    )
+    (net "Net-(J32-Pad1)"
+      (pins J32-1)
+    )
+    (net "Net-(J33-Pad2)"
+      (pins J33-2)
+    )
+    (net "Net-(J33-Pad1)"
+      (pins J33-1)
+    )
+    (net "Net-(J34-Pad2)"
+      (pins J34-2)
+    )
+    (net "Net-(J34-Pad1)"
+      (pins J34-1)
+    )
+    (net "Net-(J35-Pad2)"
+      (pins J35-2)
+    )
+    (net "Net-(J35-Pad1)"
+      (pins J35-1)
+    )
+    (net "Net-(J36-Pad2)"
+      (pins J36-2)
+    )
+    (net "Net-(J36-Pad1)"
+      (pins J36-1)
+    )
+    (net "Net-(J37-Pad2)"
+      (pins J37-2)
+    )
+    (net "Net-(J37-Pad1)"
+      (pins J37-1)
+    )
+    (net "Net-(J38-Pad2)"
+      (pins J38-2)
+    )
+    (net "Net-(J38-Pad1)"
+      (pins J38-1)
+    )
+    (net "Net-(J39-Pad2)"
+      (pins J39-2)
+    )
+    (net "Net-(J39-Pad1)"
+      (pins J39-1)
+    )
+    (net "Net-(J40-Pad2)"
+      (pins J40-2)
+    )
+    (net "Net-(J40-Pad1)"
+      (pins J40-1)
+    )
+    (net "Net-(J41-Pad2)"
+      (pins J41-2)
+    )
+    (net "Net-(J41-Pad1)"
+      (pins J41-1)
+    )
+    (net "Net-(J42-Pad2)"
+      (pins J42-2)
+    )
+    (net "Net-(J42-Pad1)"
+      (pins J42-1)
+    )
+    (net "Net-(U33-Pad35)"
+      (pins U33-35)
+    )
+    (net "Net-(U33-Pad36)"
+      (pins U33-36)
+    )
+    (net "Net-(U33-Pad37)"
+      (pins U33-37)
+    )
+    (net "Net-(U33-Pad38)"
+      (pins U33-38)
+    )
+    (net "Net-(U33-Pad39)"
+      (pins U33-39)
+    )
+    (net "Net-(U33-Pad40)"
+      (pins U33-40)
+    )
+    (net "Net-(U33-Pad41)"
+      (pins U33-41)
+    )
+    (net "Net-(U33-Pad42)"
+      (pins U33-42)
+    )
+    (net "Net-(U33-Pad43)"
+      (pins U33-43)
+    )
+    (net "Net-(U33-Pad44)"
+      (pins U33-44)
+    )
+    (net "Net-(U33-Pad51)"
+      (pins U33-51)
     )
     (class kicad_default "" +3V3 +5V 3V3_CoraZ7 3V3_Reg 5V_CoraZ7 5V_Reg GND
       "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C100-Pad1)" "Net-(C100-Pad2)"
@@ -2531,7 +2585,13 @@
       "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(C90-Pad1)" "Net-(C90-Pad2)" "Net-(C93-Pad1)"
       "Net-(C94-Pad1)" "Net-(C95-Pad1)" "Net-(C96-Pad1)" "Net-(C97-Pad1)"
       "Net-(C97-Pad2)" "Net-(C98-Pad1)" "Net-(C98-Pad2)" "Net-(C99-Pad1)"
-      "Net-(C99-Pad2)" "Net-(U33-Pad16)" "Net-(U33-Pad35)" "Net-(U33-Pad36)"
+      "Net-(C99-Pad2)" "Net-(J31-Pad1)" "Net-(J31-Pad2)" "Net-(J32-Pad1)"
+      "Net-(J32-Pad2)" "Net-(J33-Pad1)" "Net-(J33-Pad2)" "Net-(J34-Pad1)"
+      "Net-(J34-Pad2)" "Net-(J35-Pad1)" "Net-(J35-Pad2)" "Net-(J36-Pad1)"
+      "Net-(J36-Pad2)" "Net-(J37-Pad1)" "Net-(J37-Pad2)" "Net-(J38-Pad1)"
+      "Net-(J38-Pad2)" "Net-(J39-Pad1)" "Net-(J39-Pad2)" "Net-(J40-Pad1)"
+      "Net-(J40-Pad2)" "Net-(J41-Pad1)" "Net-(J41-Pad2)" "Net-(J42-Pad1)"
+      "Net-(J42-Pad2)" "Net-(U33-Pad16)" "Net-(U33-Pad35)" "Net-(U33-Pad36)"
       "Net-(U33-Pad37)" "Net-(U33-Pad38)" "Net-(U33-Pad39)" "Net-(U33-Pad40)"
       "Net-(U33-Pad41)" "Net-(U33-Pad42)" "Net-(U33-Pad43)" "Net-(U33-Pad44)"
       "Net-(U33-Pad51)" SCL0 SCL1 SCL10 SCL11 SCL12 SCL13 SCL14 SCL15 SCL16
@@ -2591,65 +2651,21 @@
             52578 -121920  55880 -121920)(net +3V3)(type protect))
     (wire (path F.Cu 500  56515 -122555  56515 -123825)(net +3V3)(type protect))
     (wire (path F.Cu 500  55880 -121920  56515 -122555)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  203284 -115654  203284 -115654)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  182964 -115740  182964 -115740)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  162390 -115654  162390 -115654)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  142324 -115654  142324 -115654)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  203284 -95420  203284 -95420)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  182964 -95420  182964 -95420)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  162644 -95420  162644 -95420)(net +3V3)(type protect))
+    (wire (path In2.Cu 1000  142324 -95420  142324 -95420)(net +3V3)(type protect))
     (wire (path In2.Cu 1000  59055 -126365  53975 -126365)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  121836 -54694  121836 -54694)(net VDD_Filters)(type protect))
     (wire (path F.Cu 250  121920 -54610  121836 -54694)(net VDD_Filters)(type protect))
     (wire (path F.Cu 250  124050 -54610  121920 -54610)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  116205 -126365  65405 -126365  53975 -126365)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -120734  116205 -126365)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -54694  121836 -59606)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223436 -59606  223520 -59522)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223436 -80094  223520 -80010  223520 -74930)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223436 -100414  223520 -100330  223520 -95758  223520 -95250)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -120650  223520 -115570)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  223520 -74930  223520 -74930)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  223520 -54610  223520 -54610)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -75014  121836 -80094)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -95334  121836 -100414)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -115654  121836 -120734)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142324 -120734  142324 -115654)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -120734  142324 -120734)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162390 -120734  162390 -115654)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142324 -120734  162390 -120734)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -120734  182964 -115740)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162390 -120734  182964 -120734)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -120734  203284 -115654)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -120734  213380 -120734)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -120734  203284 -120734)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223436 -120734  223520 -120650)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -120734  223436 -120734)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  223520 -115570  223520 -115570)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -115654  203284 -115654)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -115740  182964 -115740)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162390 -115654  162390 -115654)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142324 -115654  142324 -115654)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142324 -100414  142324 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -100414  142324 -100414)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162644 -100414  162644 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142324 -100414  162644 -100414)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -100414  182964 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162644 -100414  182964 -100414)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -100414  203284 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -100414  223436 -100414)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -100414  203284 -100414)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  202862 -80094  202862 -75268)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  202862 -80094  223436 -80094)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182796 -80094  182796 -75014)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182796 -80094  202862 -80094)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162644 -80094  162644 -75014)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162644 -80094  182796 -80094)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142156 -80094  142156 -75014)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142156 -80094  162644 -80094)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -80094  142156 -80094)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142070 -59606  142070 -54780)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  121836 -59606  142070 -59606)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162476 -59606  162476 -54186)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142070 -59606  162476 -59606)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -59606  182964 -54694)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162476 -59606  182964 -59606)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203116 -59606  203116 -54694)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203116 -59606  223436 -59606)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -59606  203116 -59606)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  203116 -54694  203116 -54694)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  182964 -54694  182964 -54694)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  162476 -54186  162476 -54186)(net VDD_Filters)(type protect))
@@ -2659,23 +2675,6 @@
     (wire (path In2.Cu 1000  182796 -75014  182796 -75014)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  202862 -75268  202862 -75268)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 1000  223520 -95250  223520 -95250)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  203284 -95420  203284 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  182964 -95420  182964 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  162644 -95420  162644 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  142324 -95420  142324 -95420)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -58928  223520 -63246)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -58928  223520 -54610)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -59522  223520 -58928)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223120 -74530  223520 -74930)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223120 -63646  223120 -74530)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -63246  223120 -63646)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -80010  223520 -84582)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223120 -94850  223520 -95250)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223120 -84982  223120 -94850)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -84582  223120 -84982)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223012 -115062  223520 -115570)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223012 -105918  223012 -115062)(net VDD_Filters)(type protect))
-    (wire (path In2.Cu 1000  223520 -100330  223520 -105410  223012 -105918)(net VDD_Filters)(type protect))
     (wire (path F.Cu 500  57615 -96920  57615 -95715)(net "Net-(C241-Pad1)")(type protect))
     (wire (path F.Cu 500  56515 -94615  56515 -92075)(net "Net-(C241-Pad1)")(type protect))
     (wire (path F.Cu 500  57615 -95715  56515 -94615)(net "Net-(C241-Pad1)")(type protect))
@@ -2726,17 +2725,7 @@
     (wire (path In2.Cu 1000  52125 -92075  53975 -92075)(net 5V_CoraZ7)(type protect))
     (wire (path In2.Cu 1000  51562 -92638  52125 -92075)(net 5V_CoraZ7)(type protect))
     (wire (path In2.Cu 1000  51562 -107387  51562 -92638)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  119888 -52070  118666 -53292)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  119888 -33274  119888 -52070)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  51562 -91512  51562 -34036)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  118618 -32004  119888 -33274)(net 5V_CoraZ7)(type protect))
     (wire (path In2.Cu 1000  52125 -92075  51562 -91512)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  51562 -34036  53594 -32004)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  118666 -53292  117445 -53292)(net 5V_CoraZ7)(type protect))
-    (wire (path In2.Cu 1000  53594 -32004  118618 -32004)(net 5V_CoraZ7)(type protect))
-    (wire (path In1.Cu 1000  63541 -79103.6  63541 -78026)(net 3V3_CoraZ7)(type protect))
-    (wire (path In1.Cu 500  63541 -101504  63541 -79103.6)(net 3V3_CoraZ7)(type protect))
-    (wire (path In1.Cu 500  60905 -104140  63541 -101504)(net 3V3_CoraZ7)(type protect))
     (wire (path In1.Cu 500  59055 -104140  60905 -104140)(net 3V3_CoraZ7)(type protect))
     (via "Via[0-3]_800:400_um"  151765 -115570 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  172085 -115570 (net GND)(type protect))
@@ -2836,9 +2825,7 @@
     (via "Via[0-3]_800:400_um"  130302 -64770 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  130302 -83820 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  130302 -85090 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  133096 -85598 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -89662 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  133096 -93726 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -97790 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  150622 -83820 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  150622 -85090 (net GND)(type protect))
@@ -2902,14 +2889,20 @@
     (via "Via[0-3]_800:400_um"  153416 -118110 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  130302 -105410 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  130302 -104140 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  133096 -105918 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -109982 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  133096 -114046 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -118110 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  59182 -99060 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  53086 -97790 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  53086 -113538 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  59182 -115062 (net GND)(type protect))
+    (via "Via[0-3]_800:400_um"  127508 -85090 (net "Net-(U33-Pad16)")(type protect))
+    (via "Via[0-3]_800:400_um"  127508 -106680 (net SCL7)(type protect))
+    (via "Via[0-3]_800:400_um"  133096 -93726 (net SCL15)(type protect))
+    (via "Via[0-3]_800:400_um"  133096 -105918 (net SDA18)(type protect))
+    (via "Via[0-3]_800:400_um"  121836 -95334 (net SDA18)(type protect))
+    (via "Via[0-3]_800:400_um"  122936 -107950 (net SDA20)(type protect))
+    (via "Via[0-3]_800:400_um"  133096 -114046 (net SCL19)(type protect))
+    (via "Via[0-3]_800:400_um"  122936 -110490 (net SCL20)(type protect))
     (via "Via[0-3]_800:400_um"  122936 -49530 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  122936 -46990 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  143256 -46990 (net +3V3)(type protect))
@@ -2971,7 +2964,6 @@
     (via "Via[0-3]_800:400_um"  127508 -63500 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -66040 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -83820 (net +3V3)(type protect))
-    (via "Via[0-3]_800:400_um"  127508 -85090 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  123444 -87630 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  123444 -90170 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -86360 (net +3V3)(type protect))
@@ -3025,20 +3017,19 @@
     (via "Via[0-3]_800:400_um"  147828 -106680 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -104140 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -105410 (net +3V3)(type protect))
-    (via "Via[0-3]_800:400_um"  127508 -106680 (net +3V3)(type protect))
-    (via "Via[0-3]_800:400_um"  122936 -107950 (net +3V3)(type protect))
-    (via "Via[0-3]_800:400_um"  122936 -110490 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  121836 -115654 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  203284 -115654 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  182964 -115740 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  162390 -115654 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  142324 -115654 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  203284 -95420 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  182964 -95420 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  162644 -95420 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  142324 -95420 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  121836 -54694 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  223520 -74930 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  223520 -54610 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  121836 -75014 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  121836 -95334 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  121836 -115654 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  223520 -115570 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  203284 -115654 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  182964 -115740 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  162390 -115654 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  142324 -115654 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  203116 -54694 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  182964 -54694 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  162476 -54186 (net VDD_Filters)(type protect))
@@ -3048,9 +3039,7 @@
     (via "Via[0-3]_800:400_um"  182796 -75014 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  202862 -75268 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  223520 -95250 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  203284 -95420 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  182964 -95420 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  162644 -95420 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  142324 -95420 (net VDD_Filters)(type protect))
+    (via "Via[0-3]_800:400_um"  133096 -85598 (net 3V3_CoraZ7)(type protect))
+    (via "Via[0-3]_800:400_um"  121836 -75014 (net 3V3_CoraZ7)(type protect))
   )
 )
