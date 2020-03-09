@@ -519,4 +519,48 @@ Wire Wire Line
 	3400 4350 3550 4350
 Wire Wire Line
 	2650 4350 3400 4350
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E743F5A
+P 6500 3850
+F 0 "H1" H 6600 3896 50  0000 L CNN
+F 1 "MountingHole" H 6600 3805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6500 3850 50  0001 C CNN
+F 3 "~" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E74AFC2
+P 7500 3850
+F 0 "H3" H 7600 3896 50  0000 L CNN
+F 1 "MountingHole" H 7600 3805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7500 3850 50  0001 C CNN
+F 3 "~" H 7500 3850 50  0001 C CNN
+	1    7500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E74C1EE
+P 6500 4200
+F 0 "H2" H 6600 4246 50  0000 L CNN
+F 1 "MountingHole" H 6600 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6500 4200 50  0001 C CNN
+F 3 "~" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E74D363
+P 7500 4200
+F 0 "H4" H 7600 4246 50  0000 L CNN
+F 1 "MountingHole" H 7600 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7500 4200 50  0001 C CNN
+F 3 "~" H 7500 4200 50  0001 C CNN
+	1    7500 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
