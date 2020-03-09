@@ -132,7 +132,7 @@ AR Path="/5E33641B" Ref="U?"  Part="1"
 AR Path="/5E33202B/5E33641B" Ref="U33"  Part="1" 
 F 0 "U33" H 3850 5825 50  0000 C CNN
 F 1 "Digilent-CoraZ7" H 3850 5734 50  0000 C CNN
-F 2 "footprint:CoraZ7" H 3350 2850 50  0001 C CNN
+F 2 "footprint:CoraZ7_stack" H 3350 2850 50  0001 C CNN
 F 3 "" H 3900 1800 50  0001 C CNN
 	1    3850 3750
 	1    0    0    -1  
