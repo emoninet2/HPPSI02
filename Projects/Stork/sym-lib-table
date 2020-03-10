@@ -1,6 +1,6 @@
 (sym_lib_table
-  (lib (name AD7991YRJZ-1500RL7)(type Legacy)(uri ${USER_LIB}/schematic/AD7991YRJZ-1500RL7.lib)(options "")(descr ""))
-  (lib (name AD8608ARZ)(type Legacy)(uri ${USER_LIB}/schematic/AD8608ARZ.lib)(options "")(descr ""))
-  (lib (name Digilent-CoraZ7)(type Legacy)(uri ${USER_LIB}/schematic/Digilent-CoraZ7.lib)(options "")(descr ""))
+  (lib (name AD7991YRJZ-1500RL7)(type Legacy)(uri C:/Users/hr193/Documents/KiCad/Projects/StorkBoardDesign/Projects/Stork/Libraries/schematic/AD7991YRJZ-1500RL7.lib)(options "")(descr ""))
+  (lib (name AD8608ARZ)(type Legacy)(uri C:/Users/hr193/Documents/KiCad/Projects/StorkBoardDesign/Projects/Stork/Libraries/schematic/AD8608ARZ.lib)(options "")(descr ""))
+  (lib (name Digilent-CoraZ7)(type Legacy)(uri C:/Users/hr193/Documents/KiCad/Projects/StorkBoardDesign/Projects/Stork/Libraries/schematic/Digilent-CoraZ7.lib)(options "")(descr ""))
   (lib (name Stork-rescue)(type Legacy)(uri ${KIPRJMOD}/Stork-rescue.lib)(options "")(descr ""))
 )

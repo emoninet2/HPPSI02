@@ -278,11 +278,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Stork-rescue_Digilent-CoraZ7-Digilent-CoraZ7
+# Stork-rescue_Digilent-CoraZ7-Digilent-CoraZ7-Stork-rescue
 #
-DEF Stork-rescue_Digilent-CoraZ7-Digilent-CoraZ7 U 0 40 Y Y 1 F N
+DEF Stork-rescue_Digilent-CoraZ7-Digilent-CoraZ7-Stork-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -1950 50 H V C CNN
-F1 "Stork-rescue_Digilent-CoraZ7-Digilent-CoraZ7" 2250 1950 50 H V C CNN
+F1 "Stork-rescue_Digilent-CoraZ7-Digilent-CoraZ7-Stork-rescue" 2250 1950 50 H V C CNN
 F2 "footprint:CoraZ7" 2250 1950 50 H I C CNN
 F3 "" 50 -1950 50 H I C CNN
 DRAW
