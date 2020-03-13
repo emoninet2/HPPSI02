@@ -1,4 +1,4 @@
-(pcb C:\Users\hr193\Documents\KiCad\StorkBoardDesign\Projects\Stork\Stork.dsn
+(pcb C:\Users\hr193\Documents\KiCad\Projects\StorkBoardDesign\Projects\Stork\Stork.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -75,6 +75,9 @@
     )
   )
   (placement
+    (component "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+      (place J27 56000 -64630 front 90 (PN Screw_Terminal_01x02))
+    )
     (component MountingHole:MountingHole_2.5mm_Pad
       (place H4 245000 -125000 front 0 (PN MountingHole))
       (place H3 245000 -35000 front 0 (PN MountingHole))
@@ -82,7 +85,7 @@
       (place H1 55000 -35000 front 0 (PN MountingHole))
     )
     (component Capacitor_SMD:C_0402_1005Metric
-      (place C246 56000 -78000 front 0 (PN 10uF))
+      (place C246 56000 -77724 front 0 (PN 10uF))
       (place C245 56000 -72000 front 0 (PN 0.01uF))
       (place C244 56485 -94000 front 0 (PN 10uF))
       (place C243 56485 -88000 front 0 (PN 0.01uF))
@@ -653,15 +656,45 @@
     (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
       (place J25 59055 -100825 front 270 (PN Conn_02x03_Odd_Even))
     )
-    (component "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-      (place J27 56000 -64630 front 90 (PN Screw_Terminal_01x02))
-    )
     (component "Package_TO_SOT_SMD:SOT-23-5"
       (place U50 56515 -74870 front 180 (PN "TPS79330-EP"))
       (place U51 56515 -90665 front 180 (PN TPS73150DBV))
     )
   )
   (library
+    (image "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+      (outline (path signal 50  4310 3420  -1770 3420))
+      (outline (path signal 50  4310 -3380  4310 3420))
+      (outline (path signal 50  -1770 -3380  4310 -3380))
+      (outline (path signal 50  -1770 3420  -1770 -3380))
+      (outline (path signal 120  3340 2430  3340 3030))
+      (outline (path signal 120  1740 2430  3340 2430))
+      (outline (path signal 120  1740 3030  1740 2430))
+      (outline (path signal 120  800 2430  800 3030))
+      (outline (path signal 120  -800 2430  800 2430))
+      (outline (path signal 120  -800 3030  -800 2430))
+      (outline (path signal 120  2290 -2990  2290 -1990))
+      (outline (path signal 120  250 -2990  250 -1990))
+      (outline (path signal 120  2290 -1460  2540 -1990))
+      (outline (path signal 120  250 -1460  2290 -1460))
+      (outline (path signal 120  0 -1990  250 -1460))
+      (outline (path signal 120  2540 -1990  2540 -2990))
+      (outline (path signal 120  0 -1990  2540 -1990))
+      (outline (path signal 120  0 -2990  0 -1990))
+      (outline (path signal 100  -562.893 0  -1270 -500))
+      (outline (path signal 100  -1270 500  -562.893 0))
+      (outline (path signal 120  -1670 2000  -1670 -2000))
+      (outline (path signal 120  3920 3030  -1380 3030))
+      (outline (path signal 120  3920 -2990  3920 3030))
+      (outline (path signal 120  -1380 -2990  3920 -2990))
+      (outline (path signal 120  -1380 3030  -1380 -2990))
+      (outline (path signal 100  3810 2920  -1270 2920))
+      (outline (path signal 100  3810 -2880  3810 2920))
+      (outline (path signal 100  -1270 -2880  3810 -2880))
+      (outline (path signal 100  -1270 2920  -1270 -2880))
+      (pin Oval[A]Pad_1740x2200_um 2 2540 0)
+      (pin RoundRect[A]Pad_1740x2200_250.95_um 1 0 0)
+    )
     (image MountingHole:MountingHole_2.5mm_Pad
       (outline (path signal 50  2750 0  2670.09 -658.118  2435 -1277.99  2058.41 -1823.59
             1562.18 -2263.21  975.163 -2571.3  331.476 -2729.95  -331.476 -2729.95
@@ -968,39 +1001,6 @@
       (pin Oval[A]Pad_1700x1700_um 2 2540 0)
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-      (outline (path signal 50  4310 3420  -1770 3420))
-      (outline (path signal 50  4310 -3380  4310 3420))
-      (outline (path signal 50  -1770 -3380  4310 -3380))
-      (outline (path signal 50  -1770 3420  -1770 -3380))
-      (outline (path signal 120  3340 2430  3340 3030))
-      (outline (path signal 120  1740 2430  3340 2430))
-      (outline (path signal 120  1740 3030  1740 2430))
-      (outline (path signal 120  800 2430  800 3030))
-      (outline (path signal 120  -800 2430  800 2430))
-      (outline (path signal 120  -800 3030  -800 2430))
-      (outline (path signal 120  2290 -2990  2290 -1990))
-      (outline (path signal 120  250 -2990  250 -1990))
-      (outline (path signal 120  2290 -1460  2540 -1990))
-      (outline (path signal 120  250 -1460  2290 -1460))
-      (outline (path signal 120  0 -1990  250 -1460))
-      (outline (path signal 120  2540 -1990  2540 -2990))
-      (outline (path signal 120  0 -1990  2540 -1990))
-      (outline (path signal 120  0 -2990  0 -1990))
-      (outline (path signal 100  -562.893 0  -1270 -500))
-      (outline (path signal 100  -1270 500  -562.893 0))
-      (outline (path signal 120  -1670 2000  -1670 -2000))
-      (outline (path signal 120  3920 3030  -1380 3030))
-      (outline (path signal 120  3920 -2990  3920 3030))
-      (outline (path signal 120  -1380 -2990  3920 -2990))
-      (outline (path signal 120  -1380 3030  -1380 -2990))
-      (outline (path signal 100  3810 2920  -1270 2920))
-      (outline (path signal 100  3810 -2880  3810 2920))
-      (outline (path signal 100  -1270 -2880  3810 -2880))
-      (outline (path signal 100  -1270 2920  -1270 -2880))
-      (pin Oval[A]Pad_1740x2200_um 2 2540 0)
-      (pin RoundRect[A]Pad_1740x2200_250.95_um 1 0 0)
-    )
     (image "Package_TO_SOT_SMD:SOT-23-5"
       (outline (path signal 100  900 1550  900 -1550))
       (outline (path signal 100  900 -1550  -900 -1550))
@@ -1144,7 +1144,7 @@
   )
   (network
     (net GND
-      (pins C246-2 C245-2 C244-2 C243-2 U33-73 U33-60 U33-15 U33-52 U33-53 C241-2
+      (pins J27-1 C246-2 C245-2 C244-2 C243-2 U33-73 U33-60 U33-15 U33-52 U33-53 C241-2
         J31-2 J31-1 J42-2 J42-1 J41-2 J41-1 J40-2 J40-1 J38-2 J38-1 J37-2 J37-1 J36-2
         J36-1 J35-2 J35-1 J34-2 J34-1 J32-2 J32-1 C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 C11-2
         C12-2 C13-2 C14-2 C15-2 C16-2 C21-2 C22-2 C23-2 C24-2 C25-2 C26-2 C31-2 C32-2
@@ -1162,7 +1162,7 @@
         U12-11 U14-11 U16-11 U18-11 U20-11 U22-11 U24-11 U26-11 U28-11 U30-11 U32-11
         U35-11 U37-11 U39-11 U41-11 U43-11 U45-11 U47-11 U49-11 U1-7 U3-7 U5-7 U7-7
         U9-7 U11-7 U13-7 U15-7 U17-7 U19-7 U21-7 U23-7 U25-7 U27-7 U29-7 U31-7 U34-7
-        U36-7 U38-7 U40-7 U42-7 U44-7 U46-7 U48-7 C223-2 C242-2 J27-1 U50-2 U51-2)
+        U36-7 U38-7 U40-7 U42-7 U44-7 U46-7 U48-7 C223-2 C242-2 U50-2 U51-2)
     )
     (net "Net-(C3-Pad1)"
       (pins C3-1 R1-2 U2-3)
@@ -2506,7 +2506,7 @@
       (pins C246-1 J29-3 U50-5)
     )
     (net V_RAW
-      (pins J30-3 J26-3 J27-2)
+      (pins J27-2 J30-3 J26-3)
     )
     (net 5V_CoraZ7
       (pins U33-54 J30-1 J28-1 J26-1)
@@ -2559,101 +2559,97 @@
     (net "Net-(U33-Pad51)"
       (pins U33-51)
     )
-    (class kicad_default "" "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C100-Pad1)"
-      "Net-(C100-Pad2)" "Net-(C103-Pad1)" "Net-(C104-Pad1)" "Net-(C105-Pad1)"
-      "Net-(C106-Pad1)" "Net-(C107-Pad1)" "Net-(C107-Pad2)" "Net-(C108-Pad1)"
-      "Net-(C108-Pad2)" "Net-(C109-Pad1)" "Net-(C109-Pad2)" "Net-(C110-Pad1)"
-      "Net-(C110-Pad2)" "Net-(C113-Pad1)" "Net-(C114-Pad1)" "Net-(C115-Pad1)"
-      "Net-(C116-Pad1)" "Net-(C117-Pad1)" "Net-(C117-Pad2)" "Net-(C118-Pad1)"
-      "Net-(C118-Pad2)" "Net-(C119-Pad1)" "Net-(C119-Pad2)" "Net-(C120-Pad1)"
-      "Net-(C120-Pad2)" "Net-(C123-Pad1)" "Net-(C124-Pad1)" "Net-(C125-Pad1)"
-      "Net-(C126-Pad1)" "Net-(C127-Pad1)" "Net-(C127-Pad2)" "Net-(C128-Pad1)"
-      "Net-(C128-Pad2)" "Net-(C129-Pad1)" "Net-(C129-Pad2)" "Net-(C13-Pad1)"
-      "Net-(C130-Pad1)" "Net-(C130-Pad2)" "Net-(C133-Pad1)" "Net-(C134-Pad1)"
-      "Net-(C135-Pad1)" "Net-(C136-Pad1)" "Net-(C137-Pad1)" "Net-(C137-Pad2)"
-      "Net-(C138-Pad1)" "Net-(C138-Pad2)" "Net-(C139-Pad1)" "Net-(C139-Pad2)"
-      "Net-(C14-Pad1)" "Net-(C140-Pad1)" "Net-(C140-Pad2)" "Net-(C143-Pad1)"
-      "Net-(C144-Pad1)" "Net-(C145-Pad1)" "Net-(C146-Pad1)" "Net-(C147-Pad1)"
-      "Net-(C147-Pad2)" "Net-(C148-Pad1)" "Net-(C148-Pad2)" "Net-(C149-Pad1)"
-      "Net-(C149-Pad2)" "Net-(C15-Pad1)" "Net-(C150-Pad1)" "Net-(C150-Pad2)"
-      "Net-(C153-Pad1)" "Net-(C154-Pad1)" "Net-(C155-Pad1)" "Net-(C156-Pad1)"
-      "Net-(C157-Pad1)" "Net-(C157-Pad2)" "Net-(C158-Pad1)" "Net-(C158-Pad2)"
-      "Net-(C159-Pad1)" "Net-(C159-Pad2)" "Net-(C16-Pad1)" "Net-(C160-Pad1)"
-      "Net-(C160-Pad2)" "Net-(C163-Pad1)" "Net-(C164-Pad1)" "Net-(C165-Pad1)"
-      "Net-(C166-Pad1)" "Net-(C167-Pad1)" "Net-(C167-Pad2)" "Net-(C168-Pad1)"
-      "Net-(C168-Pad2)" "Net-(C169-Pad1)" "Net-(C169-Pad2)" "Net-(C17-Pad1)"
-      "Net-(C17-Pad2)" "Net-(C170-Pad1)" "Net-(C170-Pad2)" "Net-(C173-Pad1)"
-      "Net-(C174-Pad1)" "Net-(C175-Pad1)" "Net-(C176-Pad1)" "Net-(C177-Pad1)"
-      "Net-(C177-Pad2)" "Net-(C178-Pad1)" "Net-(C178-Pad2)" "Net-(C179-Pad1)"
-      "Net-(C179-Pad2)" "Net-(C18-Pad1)" "Net-(C18-Pad2)" "Net-(C180-Pad1)"
-      "Net-(C180-Pad2)" "Net-(C183-Pad1)" "Net-(C184-Pad1)" "Net-(C185-Pad1)"
-      "Net-(C186-Pad1)" "Net-(C187-Pad1)" "Net-(C187-Pad2)" "Net-(C188-Pad1)"
-      "Net-(C188-Pad2)" "Net-(C189-Pad1)" "Net-(C189-Pad2)" "Net-(C19-Pad1)"
-      "Net-(C19-Pad2)" "Net-(C190-Pad1)" "Net-(C190-Pad2)" "Net-(C193-Pad1)"
-      "Net-(C194-Pad1)" "Net-(C195-Pad1)" "Net-(C196-Pad1)" "Net-(C197-Pad1)"
-      "Net-(C197-Pad2)" "Net-(C198-Pad1)" "Net-(C198-Pad2)" "Net-(C199-Pad1)"
-      "Net-(C199-Pad2)" "Net-(C20-Pad1)" "Net-(C20-Pad2)" "Net-(C200-Pad1)"
-      "Net-(C200-Pad2)" "Net-(C203-Pad1)" "Net-(C204-Pad1)" "Net-(C205-Pad1)"
-      "Net-(C206-Pad1)" "Net-(C207-Pad1)" "Net-(C207-Pad2)" "Net-(C208-Pad1)"
-      "Net-(C208-Pad2)" "Net-(C209-Pad1)" "Net-(C209-Pad2)" "Net-(C210-Pad1)"
-      "Net-(C210-Pad2)" "Net-(C213-Pad1)" "Net-(C214-Pad1)" "Net-(C215-Pad1)"
-      "Net-(C216-Pad1)" "Net-(C217-Pad1)" "Net-(C217-Pad2)" "Net-(C218-Pad1)"
-      "Net-(C218-Pad2)" "Net-(C219-Pad1)" "Net-(C219-Pad2)" "Net-(C220-Pad1)"
-      "Net-(C220-Pad2)" "Net-(C223-Pad1)" "Net-(C224-Pad1)" "Net-(C225-Pad1)"
-      "Net-(C226-Pad1)" "Net-(C227-Pad1)" "Net-(C227-Pad2)" "Net-(C228-Pad1)"
-      "Net-(C228-Pad2)" "Net-(C229-Pad1)" "Net-(C229-Pad2)" "Net-(C23-Pad1)"
-      "Net-(C230-Pad1)" "Net-(C230-Pad2)" "Net-(C233-Pad1)" "Net-(C234-Pad1)"
-      "Net-(C235-Pad1)" "Net-(C236-Pad1)" "Net-(C237-Pad1)" "Net-(C237-Pad2)"
-      "Net-(C238-Pad1)" "Net-(C238-Pad2)" "Net-(C239-Pad1)" "Net-(C239-Pad2)"
-      "Net-(C24-Pad1)" "Net-(C240-Pad1)" "Net-(C240-Pad2)" "Net-(C241-Pad1)"
-      "Net-(C242-Pad1)" "Net-(C243-Pad1)" "Net-(C245-Pad1)" "Net-(C25-Pad1)"
-      "Net-(C26-Pad1)" "Net-(C27-Pad1)" "Net-(C27-Pad2)" "Net-(C28-Pad1)"
-      "Net-(C28-Pad2)" "Net-(C29-Pad1)" "Net-(C29-Pad2)" "Net-(C3-Pad1)" "Net-(C30-Pad1)"
-      "Net-(C30-Pad2)" "Net-(C33-Pad1)" "Net-(C34-Pad1)" "Net-(C35-Pad1)"
-      "Net-(C36-Pad1)" "Net-(C37-Pad1)" "Net-(C37-Pad2)" "Net-(C38-Pad1)"
-      "Net-(C38-Pad2)" "Net-(C39-Pad1)" "Net-(C39-Pad2)" "Net-(C4-Pad1)" "Net-(C40-Pad1)"
-      "Net-(C40-Pad2)" "Net-(C43-Pad1)" "Net-(C44-Pad1)" "Net-(C45-Pad1)"
-      "Net-(C46-Pad1)" "Net-(C47-Pad1)" "Net-(C47-Pad2)" "Net-(C48-Pad1)"
-      "Net-(C48-Pad2)" "Net-(C49-Pad1)" "Net-(C49-Pad2)" "Net-(C5-Pad1)" "Net-(C50-Pad1)"
-      "Net-(C50-Pad2)" "Net-(C53-Pad1)" "Net-(C54-Pad1)" "Net-(C55-Pad1)"
-      "Net-(C56-Pad1)" "Net-(C57-Pad1)" "Net-(C57-Pad2)" "Net-(C58-Pad1)"
-      "Net-(C58-Pad2)" "Net-(C59-Pad1)" "Net-(C59-Pad2)" "Net-(C6-Pad1)" "Net-(C60-Pad1)"
-      "Net-(C60-Pad2)" "Net-(C63-Pad1)" "Net-(C64-Pad1)" "Net-(C65-Pad1)"
-      "Net-(C66-Pad1)" "Net-(C67-Pad1)" "Net-(C67-Pad2)" "Net-(C68-Pad1)"
-      "Net-(C68-Pad2)" "Net-(C69-Pad1)" "Net-(C69-Pad2)" "Net-(C7-Pad1)" "Net-(C7-Pad2)"
-      "Net-(C70-Pad1)" "Net-(C70-Pad2)" "Net-(C73-Pad1)" "Net-(C74-Pad1)"
-      "Net-(C75-Pad1)" "Net-(C76-Pad1)" "Net-(C77-Pad1)" "Net-(C77-Pad2)"
-      "Net-(C78-Pad1)" "Net-(C78-Pad2)" "Net-(C79-Pad1)" "Net-(C79-Pad2)"
-      "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C80-Pad1)" "Net-(C80-Pad2)" "Net-(C83-Pad1)"
-      "Net-(C84-Pad1)" "Net-(C85-Pad1)" "Net-(C86-Pad1)" "Net-(C87-Pad1)"
-      "Net-(C87-Pad2)" "Net-(C88-Pad1)" "Net-(C88-Pad2)" "Net-(C89-Pad1)"
-      "Net-(C89-Pad2)" "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(C90-Pad1)" "Net-(C90-Pad2)"
-      "Net-(C93-Pad1)" "Net-(C94-Pad1)" "Net-(C95-Pad1)" "Net-(C96-Pad1)"
-      "Net-(C97-Pad1)" "Net-(C97-Pad2)" "Net-(C98-Pad1)" "Net-(C98-Pad2)"
-      "Net-(C99-Pad1)" "Net-(C99-Pad2)" "Net-(J31-Pad1)" "Net-(J31-Pad2)"
-      "Net-(J32-Pad1)" "Net-(J32-Pad2)" "Net-(J33-Pad1)" "Net-(J33-Pad2)"
-      "Net-(J34-Pad1)" "Net-(J34-Pad2)" "Net-(J35-Pad1)" "Net-(J35-Pad2)"
-      "Net-(J36-Pad1)" "Net-(J36-Pad2)" "Net-(J37-Pad1)" "Net-(J37-Pad2)"
-      "Net-(J38-Pad1)" "Net-(J38-Pad2)" "Net-(J39-Pad1)" "Net-(J39-Pad2)"
-      "Net-(J40-Pad1)" "Net-(J40-Pad2)" "Net-(J41-Pad1)" "Net-(J41-Pad2)"
-      "Net-(J42-Pad1)" "Net-(J42-Pad2)" "Net-(U33-Pad16)" "Net-(U33-Pad35)"
-      "Net-(U33-Pad36)" "Net-(U33-Pad37)" "Net-(U33-Pad38)" "Net-(U33-Pad39)"
-      "Net-(U33-Pad40)" "Net-(U33-Pad41)" "Net-(U33-Pad42)" "Net-(U33-Pad43)"
-      "Net-(U33-Pad44)" "Net-(U33-Pad51)" SCL0 SCL1 SCL10 SCL11 SCL12 SCL13
-      SCL14 SCL15 SCL16 SCL17 SCL18 SCL19 SCL2 SCL20 SCL21 SCL22 SCL23 SCL3
-      SCL4 SCL5 SCL6 SCL7 SCL8 SCL9 SDA0 SDA1 SDA10 SDA11 SDA12 SDA13 SDA14
-      SDA15 SDA16 SDA17 SDA18 SDA19 SDA2 SDA20 SDA21 SDA22 SDA23 SDA3 SDA4
-      SDA5 SDA6 SDA7 SDA8 SDA9 VIN1_0 VIN1_1 VIN1_10 VIN1_11 VIN1_12 VIN1_13
-      VIN1_14 VIN1_15 VIN1_16 VIN1_17 VIN1_18 VIN1_19 VIN1_2 VIN1_20 VIN1_21
-      VIN1_22 VIN1_23 VIN1_3 VIN1_4 VIN1_5 VIN1_6 VIN1_7 VIN1_8 VIN1_9 VIN2_0
-      VIN2_1 VIN2_10 VIN2_11 VIN2_12 VIN2_13 VIN2_14 VIN2_15 VIN2_16 VIN2_17
-      VIN2_18 VIN2_19 VIN2_2 VIN2_20 VIN2_21 VIN2_22 VIN2_23 VIN2_3 VIN2_4
-      VIN2_5 VIN2_6 VIN2_7 VIN2_8 VIN2_9 VIN3_0 VIN3_1 VIN3_10 VIN3_11 VIN3_12
-      VIN3_13 VIN3_14 VIN3_15 VIN3_16 VIN3_17 VIN3_18 VIN3_19 VIN3_2 VIN3_20
-      VIN3_21 VIN3_22 VIN3_23 VIN3_3 VIN3_4 VIN3_5 VIN3_6 VIN3_7 VIN3_8 VIN3_9
-      VIN4_0 VIN4_1 VIN4_10 VIN4_11 VIN4_12 VIN4_13 VIN4_14 VIN4_15 VIN4_16
-      VIN4_17 VIN4_18 VIN4_19 VIN4_2 VIN4_20 VIN4_21 VIN4_22 VIN4_23 VIN4_3
-      VIN4_4 VIN4_5 VIN4_6 VIN4_7 VIN4_8 VIN4_9
+    (class kicad_default "" +3V3 +5V 3V3_CoraZ7 3V3_Reg 5V_CoraZ7 5V_Reg GND
+      "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C100-Pad1)" "Net-(C100-Pad2)"
+      "Net-(C103-Pad1)" "Net-(C104-Pad1)" "Net-(C105-Pad1)" "Net-(C106-Pad1)"
+      "Net-(C107-Pad1)" "Net-(C107-Pad2)" "Net-(C108-Pad1)" "Net-(C108-Pad2)"
+      "Net-(C109-Pad1)" "Net-(C109-Pad2)" "Net-(C110-Pad1)" "Net-(C110-Pad2)"
+      "Net-(C113-Pad1)" "Net-(C114-Pad1)" "Net-(C115-Pad1)" "Net-(C116-Pad1)"
+      "Net-(C117-Pad1)" "Net-(C117-Pad2)" "Net-(C118-Pad1)" "Net-(C118-Pad2)"
+      "Net-(C119-Pad1)" "Net-(C119-Pad2)" "Net-(C120-Pad1)" "Net-(C120-Pad2)"
+      "Net-(C123-Pad1)" "Net-(C124-Pad1)" "Net-(C125-Pad1)" "Net-(C126-Pad1)"
+      "Net-(C127-Pad1)" "Net-(C127-Pad2)" "Net-(C128-Pad1)" "Net-(C128-Pad2)"
+      "Net-(C129-Pad1)" "Net-(C129-Pad2)" "Net-(C13-Pad1)" "Net-(C130-Pad1)"
+      "Net-(C130-Pad2)" "Net-(C133-Pad1)" "Net-(C134-Pad1)" "Net-(C135-Pad1)"
+      "Net-(C136-Pad1)" "Net-(C137-Pad1)" "Net-(C137-Pad2)" "Net-(C138-Pad1)"
+      "Net-(C138-Pad2)" "Net-(C139-Pad1)" "Net-(C139-Pad2)" "Net-(C14-Pad1)"
+      "Net-(C140-Pad1)" "Net-(C140-Pad2)" "Net-(C143-Pad1)" "Net-(C144-Pad1)"
+      "Net-(C145-Pad1)" "Net-(C146-Pad1)" "Net-(C147-Pad1)" "Net-(C147-Pad2)"
+      "Net-(C148-Pad1)" "Net-(C148-Pad2)" "Net-(C149-Pad1)" "Net-(C149-Pad2)"
+      "Net-(C15-Pad1)" "Net-(C150-Pad1)" "Net-(C150-Pad2)" "Net-(C153-Pad1)"
+      "Net-(C154-Pad1)" "Net-(C155-Pad1)" "Net-(C156-Pad1)" "Net-(C157-Pad1)"
+      "Net-(C157-Pad2)" "Net-(C158-Pad1)" "Net-(C158-Pad2)" "Net-(C159-Pad1)"
+      "Net-(C159-Pad2)" "Net-(C16-Pad1)" "Net-(C160-Pad1)" "Net-(C160-Pad2)"
+      "Net-(C163-Pad1)" "Net-(C164-Pad1)" "Net-(C165-Pad1)" "Net-(C166-Pad1)"
+      "Net-(C167-Pad1)" "Net-(C167-Pad2)" "Net-(C168-Pad1)" "Net-(C168-Pad2)"
+      "Net-(C169-Pad1)" "Net-(C169-Pad2)" "Net-(C17-Pad1)" "Net-(C17-Pad2)"
+      "Net-(C170-Pad1)" "Net-(C170-Pad2)" "Net-(C173-Pad1)" "Net-(C174-Pad1)"
+      "Net-(C175-Pad1)" "Net-(C176-Pad1)" "Net-(C177-Pad1)" "Net-(C177-Pad2)"
+      "Net-(C178-Pad1)" "Net-(C178-Pad2)" "Net-(C179-Pad1)" "Net-(C179-Pad2)"
+      "Net-(C18-Pad1)" "Net-(C18-Pad2)" "Net-(C180-Pad1)" "Net-(C180-Pad2)"
+      "Net-(C183-Pad1)" "Net-(C184-Pad1)" "Net-(C185-Pad1)" "Net-(C186-Pad1)"
+      "Net-(C187-Pad1)" "Net-(C187-Pad2)" "Net-(C188-Pad1)" "Net-(C188-Pad2)"
+      "Net-(C189-Pad1)" "Net-(C189-Pad2)" "Net-(C19-Pad1)" "Net-(C19-Pad2)"
+      "Net-(C190-Pad1)" "Net-(C190-Pad2)" "Net-(C193-Pad1)" "Net-(C194-Pad1)"
+      "Net-(C195-Pad1)" "Net-(C196-Pad1)" "Net-(C197-Pad1)" "Net-(C197-Pad2)"
+      "Net-(C198-Pad1)" "Net-(C198-Pad2)" "Net-(C199-Pad1)" "Net-(C199-Pad2)"
+      "Net-(C20-Pad1)" "Net-(C20-Pad2)" "Net-(C200-Pad1)" "Net-(C200-Pad2)"
+      "Net-(C203-Pad1)" "Net-(C204-Pad1)" "Net-(C205-Pad1)" "Net-(C206-Pad1)"
+      "Net-(C207-Pad1)" "Net-(C207-Pad2)" "Net-(C208-Pad1)" "Net-(C208-Pad2)"
+      "Net-(C209-Pad1)" "Net-(C209-Pad2)" "Net-(C210-Pad1)" "Net-(C210-Pad2)"
+      "Net-(C213-Pad1)" "Net-(C214-Pad1)" "Net-(C215-Pad1)" "Net-(C216-Pad1)"
+      "Net-(C217-Pad1)" "Net-(C217-Pad2)" "Net-(C218-Pad1)" "Net-(C218-Pad2)"
+      "Net-(C219-Pad1)" "Net-(C219-Pad2)" "Net-(C220-Pad1)" "Net-(C220-Pad2)"
+      "Net-(C223-Pad1)" "Net-(C224-Pad1)" "Net-(C225-Pad1)" "Net-(C226-Pad1)"
+      "Net-(C227-Pad1)" "Net-(C227-Pad2)" "Net-(C228-Pad1)" "Net-(C228-Pad2)"
+      "Net-(C229-Pad1)" "Net-(C229-Pad2)" "Net-(C23-Pad1)" "Net-(C230-Pad1)"
+      "Net-(C230-Pad2)" "Net-(C233-Pad1)" "Net-(C234-Pad1)" "Net-(C235-Pad1)"
+      "Net-(C236-Pad1)" "Net-(C237-Pad1)" "Net-(C237-Pad2)" "Net-(C238-Pad1)"
+      "Net-(C238-Pad2)" "Net-(C239-Pad1)" "Net-(C239-Pad2)" "Net-(C24-Pad1)"
+      "Net-(C240-Pad1)" "Net-(C240-Pad2)" "Net-(C241-Pad1)" "Net-(C242-Pad1)"
+      "Net-(C243-Pad1)" "Net-(C245-Pad1)" "Net-(C25-Pad1)" "Net-(C26-Pad1)"
+      "Net-(C27-Pad1)" "Net-(C27-Pad2)" "Net-(C28-Pad1)" "Net-(C28-Pad2)"
+      "Net-(C29-Pad1)" "Net-(C29-Pad2)" "Net-(C3-Pad1)" "Net-(C30-Pad1)" "Net-(C30-Pad2)"
+      "Net-(C33-Pad1)" "Net-(C34-Pad1)" "Net-(C35-Pad1)" "Net-(C36-Pad1)"
+      "Net-(C37-Pad1)" "Net-(C37-Pad2)" "Net-(C38-Pad1)" "Net-(C38-Pad2)"
+      "Net-(C39-Pad1)" "Net-(C39-Pad2)" "Net-(C4-Pad1)" "Net-(C40-Pad1)" "Net-(C40-Pad2)"
+      "Net-(C43-Pad1)" "Net-(C44-Pad1)" "Net-(C45-Pad1)" "Net-(C46-Pad1)"
+      "Net-(C47-Pad1)" "Net-(C47-Pad2)" "Net-(C48-Pad1)" "Net-(C48-Pad2)"
+      "Net-(C49-Pad1)" "Net-(C49-Pad2)" "Net-(C5-Pad1)" "Net-(C50-Pad1)" "Net-(C50-Pad2)"
+      "Net-(C53-Pad1)" "Net-(C54-Pad1)" "Net-(C55-Pad1)" "Net-(C56-Pad1)"
+      "Net-(C57-Pad1)" "Net-(C57-Pad2)" "Net-(C58-Pad1)" "Net-(C58-Pad2)"
+      "Net-(C59-Pad1)" "Net-(C59-Pad2)" "Net-(C6-Pad1)" "Net-(C60-Pad1)" "Net-(C60-Pad2)"
+      "Net-(C63-Pad1)" "Net-(C64-Pad1)" "Net-(C65-Pad1)" "Net-(C66-Pad1)"
+      "Net-(C67-Pad1)" "Net-(C67-Pad2)" "Net-(C68-Pad1)" "Net-(C68-Pad2)"
+      "Net-(C69-Pad1)" "Net-(C69-Pad2)" "Net-(C7-Pad1)" "Net-(C7-Pad2)" "Net-(C70-Pad1)"
+      "Net-(C70-Pad2)" "Net-(C73-Pad1)" "Net-(C74-Pad1)" "Net-(C75-Pad1)"
+      "Net-(C76-Pad1)" "Net-(C77-Pad1)" "Net-(C77-Pad2)" "Net-(C78-Pad1)"
+      "Net-(C78-Pad2)" "Net-(C79-Pad1)" "Net-(C79-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)"
+      "Net-(C80-Pad1)" "Net-(C80-Pad2)" "Net-(C83-Pad1)" "Net-(C84-Pad1)"
+      "Net-(C85-Pad1)" "Net-(C86-Pad1)" "Net-(C87-Pad1)" "Net-(C87-Pad2)"
+      "Net-(C88-Pad1)" "Net-(C88-Pad2)" "Net-(C89-Pad1)" "Net-(C89-Pad2)"
+      "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(C90-Pad1)" "Net-(C90-Pad2)" "Net-(C93-Pad1)"
+      "Net-(C94-Pad1)" "Net-(C95-Pad1)" "Net-(C96-Pad1)" "Net-(C97-Pad1)"
+      "Net-(C97-Pad2)" "Net-(C98-Pad1)" "Net-(C98-Pad2)" "Net-(C99-Pad1)"
+      "Net-(C99-Pad2)" "Net-(J33-Pad1)" "Net-(J33-Pad2)" "Net-(J39-Pad1)"
+      "Net-(J39-Pad2)" "Net-(U33-Pad16)" "Net-(U33-Pad35)" "Net-(U33-Pad36)"
+      "Net-(U33-Pad37)" "Net-(U33-Pad38)" "Net-(U33-Pad39)" "Net-(U33-Pad40)"
+      "Net-(U33-Pad41)" "Net-(U33-Pad42)" "Net-(U33-Pad43)" "Net-(U33-Pad44)"
+      "Net-(U33-Pad51)" SCL0 SCL1 SCL10 SCL11 SCL12 SCL13 SCL14 SCL15 SCL16
+      SCL17 SCL18 SCL19 SCL2 SCL20 SCL21 SCL22 SCL23 SCL3 SCL4 SCL5 SCL6 SCL7
+      SCL8 SCL9 SDA0 SDA1 SDA10 SDA11 SDA12 SDA13 SDA14 SDA15 SDA16 SDA17
+      SDA18 SDA19 SDA2 SDA20 SDA21 SDA22 SDA23 SDA3 SDA4 SDA5 SDA6 SDA7 SDA8
+      SDA9 VDD_Filters VDD_Filters_External VIN1_0 VIN1_1 VIN1_10 VIN1_11
+      VIN1_12 VIN1_13 VIN1_14 VIN1_15 VIN1_16 VIN1_17 VIN1_18 VIN1_19 VIN1_2
+      VIN1_20 VIN1_21 VIN1_22 VIN1_23 VIN1_3 VIN1_4 VIN1_5 VIN1_6 VIN1_7 VIN1_8
+      VIN1_9 VIN2_0 VIN2_1 VIN2_10 VIN2_11 VIN2_12 VIN2_13 VIN2_14 VIN2_15
+      VIN2_16 VIN2_17 VIN2_18 VIN2_19 VIN2_2 VIN2_20 VIN2_21 VIN2_22 VIN2_23
+      VIN2_3 VIN2_4 VIN2_5 VIN2_6 VIN2_7 VIN2_8 VIN2_9 VIN3_0 VIN3_1 VIN3_10
+      VIN3_11 VIN3_12 VIN3_13 VIN3_14 VIN3_15 VIN3_16 VIN3_17 VIN3_18 VIN3_19
+      VIN3_2 VIN3_20 VIN3_21 VIN3_22 VIN3_23 VIN3_3 VIN3_4 VIN3_5 VIN3_6 VIN3_7
+      VIN3_8 VIN3_9 VIN4_0 VIN4_1 VIN4_10 VIN4_11 VIN4_12 VIN4_13 VIN4_14
+      VIN4_15 VIN4_16 VIN4_17 VIN4_18 VIN4_19 VIN4_2 VIN4_20 VIN4_21 VIN4_22
+      VIN4_23 VIN4_3 VIN4_4 VIN4_5 VIN4_6 VIN4_7 VIN4_8 VIN4_9 V_RAW
       (circuit
         (use_via Via[0-3]_800:400_um)
       )
@@ -2662,18 +2658,25 @@
         (clearance 200.1)
       )
     )
-    (class Power +3V3 +5V 3V3_CoraZ7 3V3_Reg 5V_CoraZ7 5V_Reg GND VDD_Filters
-      VDD_Filters_External V_RAW
-      (circuit
-        (use_via Via[0-3]_800:400_um)
-      )
-      (rule
-        (width 500)
-        (clearance 400.1)
-      )
-    )
   )
   (wiring
+    (wire (path F.Cu 500  56970 -94000  58400 -94000  58400 -94000)(net GND)(type protect))
+    (wire (path F.Cu 500  56485 -77724  58420 -77724)(net GND)(type protect))
+    (wire (path F.Cu 500  56485 -71217  56388 -71120)(net GND)(type protect))
+    (wire (path F.Cu 500  56485 -72000  56485 -71217)(net GND)(type protect))
+    (wire (path F.Cu 500  57796 -88000  57912 -87884)(net GND)(type protect))
+    (wire (path F.Cu 500  56970 -88000  57796 -88000)(net GND)(type protect))
+    (wire (path F.Cu 500  59055 -91935  59182 -92062)(net GND)(type protect))
+    (wire (path F.Cu 500  59055 -91150  59055 -91935)(net GND)(type protect))
+    (wire (path F.Cu 500  58735 -91150  59055 -91150)(net GND)(type protect))
+    (wire (path F.Cu 500  58250 -90665  58735 -91150)(net GND)(type protect))
+    (wire (path F.Cu 500  57615 -90665  58250 -90665)(net GND)(type protect))
+    (wire (path F.Cu 500  58645 -74870  58900 -75125  59055 -75125)(net GND)(type protect))
+    (wire (path F.Cu 500  57615 -74870  58645 -74870)(net GND)(type protect))
+    (wire (path F.Cu 500  59055 -75933  59182 -76060)(net GND)(type protect))
+    (wire (path F.Cu 500  59055 -75125  59055 -75933)(net GND)(type protect))
+    (wire (path F.Cu 500  56515 -98285  59055 -100825)(net +5V)(type protect))
+    (wire (path F.Cu 500  56515 -97015  56515 -98285)(net +5V)(type protect))
     (wire (path In2.Cu 500  59055 -118110  60960 -120015)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 500  59055 -103365  59055 -118110)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 500  201930 -120015  222885 -120015)(net VDD_Filters)(type protect))
@@ -2717,6 +2720,71 @@
     (wire (path In2.Cu 500  203835 -54610  202565 -54610)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 500  203835 -74930  202565 -74930)(net VDD_Filters)(type protect))
     (wire (path In2.Cu 500  202565 -54610  202565 -74930  202565 -90805)(net VDD_Filters)(type protect))
+    (wire (path F.Cu 500  59055 -103365  53975 -103365)(net VDD_Filters)(type protect))
+    (wire (path F.Cu 500  57615 -73920  56643 -73920)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  56900 -75820  57615 -75820)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  56635 -75555  56900 -75820)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  56635 -73928  56635 -75555)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  56643 -73920  56635 -73928)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  58820 -73920  59055 -74155)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  57615 -73920  58820 -73920)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  57615 -70175  56515 -69075)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  57615 -73920  57615 -70175)(net "Net-(C241-Pad1)")(type protect))
+    (wire (path F.Cu 500  59055 -87490  59055 -90180)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  56515 -84950  59055 -87490)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  58590 -89715  59055 -90180)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  57615 -89715  58590 -89715)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  56635 -89980  56635 -91179)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  57615 -89715  56900 -89715  56635 -89980)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  57071 -91615  57615 -91615)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  56635 -91179  57071 -91615)(net "Net-(C242-Pad1)")(type protect))
+    (wire (path F.Cu 500  56000 -88320  55372 -88948)(net "Net-(C243-Pad1)")(type protect))
+    (wire (path F.Cu 500  56000 -88000  56000 -88320)(net "Net-(C243-Pad1)")(type protect))
+    (wire (path F.Cu 500  55372 -89672  55415 -89715)(net "Net-(C243-Pad1)")(type protect))
+    (wire (path F.Cu 500  55372 -88948  55372 -89672)(net "Net-(C243-Pad1)")(type protect))
+    (wire (path F.Cu 500  56000 -94320  57184 -95504)(net 5V_Reg)(type protect))
+    (wire (path F.Cu 500  56000 -94000  56000 -94320)(net 5V_Reg)(type protect))
+    (wire (path F.Cu 500  57544 -95504  59055 -97015)(net 5V_Reg)(type protect))
+    (wire (path F.Cu 500  57184 -95504  57544 -95504)(net 5V_Reg)(type protect))
+    (wire (path F.Cu 500  55415 -93415  56000 -94000)(net 5V_Reg)(type protect))
+    (wire (path F.Cu 500  55415 -91615  55415 -93415)(net 5V_Reg)(type protect))
+    (wire (path F.Cu 500  55515 -73820  55415 -73920)(net "Net-(C245-Pad1)")(type protect))
+    (wire (path F.Cu 500  55515 -72000  55515 -73820)(net "Net-(C245-Pad1)")(type protect))
+    (wire (path F.Cu 500  54385 -75820  55415 -75820)(net 3V3_Reg)(type protect))
+    (wire (path F.Cu 500  53975 -76230  54385 -75820)(net 3V3_Reg)(type protect))
+    (wire (path F.Cu 500  53975 -81140  53975 -76230)(net 3V3_Reg)(type protect))
+    (wire (path F.Cu 500  55415 -77624  55515 -77724)(net 3V3_Reg)(type protect))
+    (wire (path F.Cu 500  55415 -75820  55415 -77624)(net 3V3_Reg)(type protect))
+    (wire (path In2.Cu 500  61100 -84950  59055 -84950)(net V_RAW)(type protect))
+    (wire (path In2.Cu 500  59055 -69075  59905 -69925)(net V_RAW)(type protect))
+    (wire (path In2.Cu 500  62230 -83820  61100 -84950)(net V_RAW)(type protect))
+    (wire (path In2.Cu 500  59905 -69925  61035 -69925)(net V_RAW)(type protect))
+    (wire (path In2.Cu 500  62230 -71120  62230 -83820)(net V_RAW)(type protect))
+    (wire (path In2.Cu 500  61035 -69925  62230 -71120)(net V_RAW)(type protect))
+    (wire (path F.Cu 500  59055 -67872.9  59055 -69075)(net V_RAW)(type protect))
+    (wire (path F.Cu 500  59055 -63545  59055 -67872.9)(net V_RAW)(type protect))
+    (wire (path F.Cu 500  57600 -62090  59055 -63545)(net V_RAW)(type protect))
+    (wire (path F.Cu 500  56000 -62090  57600 -62090)(net V_RAW)(type protect))
+    (wire (path F.Cu 500  53975 -70425  52324 -72076)(net 5V_CoraZ7)(type protect))
+    (wire (path F.Cu 500  53975 -69075  53975 -70425)(net 5V_CoraZ7)(type protect))
+    (wire (path F.Cu 500  52625 -84950  53975 -84950)(net 5V_CoraZ7)(type protect))
+    (wire (path F.Cu 500  52324 -84649  52625 -84950)(net 5V_CoraZ7)(type protect))
+    (wire (path F.Cu 500  52324 -72076  52324 -84649)(net 5V_CoraZ7)(type protect))
+    (wire (path F.Cu 500  53975 -97015  53975 -84950)(net 5V_CoraZ7)(type protect))
+    (wire (path In2.Cu 500  62661.2 -98315  63948.2 -97028)(net 5V_CoraZ7)(type protect))
+    (wire (path In2.Cu 500  53975 -97015  55275 -98315  62661.2 -98315)(net 5V_CoraZ7)(type protect))
+    (wire (path In2.Cu 500  63948.2 -97028  92456 -97028  92456 -97028)(net 5V_CoraZ7)(type protect))
+    (wire (path In1.Cu 500  113284 -89408  116496 -89408  118404 -91316)(net 5V_CoraZ7)(type protect))
+    (wire (path In1.Cu 500  92456 -97028  105664 -97028  113284 -89408)(net 5V_CoraZ7)(type protect))
+    (wire (path F.Cu 500  60405 -81140  60960 -80585)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  59055 -81140  60405 -81140)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  60960 -80585  60960 -78740)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  61750 -77950  64500 -77950)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  60960 -78740  61750 -77950)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  59055 -82490  61468 -84903)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  59055 -81140  59055 -82490)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  61468 -113018  64500 -116050)(net 3V3_CoraZ7)(type protect))
+    (wire (path F.Cu 500  61468 -84903  61468 -113018)(net 3V3_CoraZ7)(type protect))
     (via "Via[0-3]_800:400_um"  151765 -115570 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  172085 -115570 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  192405 -115570 (net GND)(type protect))
@@ -2883,14 +2951,18 @@
     (via "Via[0-3]_800:400_um"  133096 -118110 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  59182 -92062 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  59182 -76060 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  127508 -85090 (net "Net-(U33-Pad16)")(type protect))
-    (via "Via[0-3]_800:400_um"  127508 -106680 (net SCL7)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -93726 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -105918 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  122555 -95250 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  122936 -107950 (net SDA20)(type protect))
     (via "Via[0-3]_800:400_um"  133096 -114046 (net GND)(type protect))
-    (via "Via[0-3]_800:400_um"  122936 -110490 (net SCL20)(type protect))
+    (via "Via[0-3]_800:400_um"  133096 -85598 (net GND)(type protect))
+    (via "Via[0-3]_800:400_um"  57912 -87884 (net GND)(type protect))
+    (via "Via[0-3]_800:400_um"  56388 -71120 (net GND)(type protect))
+    (via "Via[0-3]_800:400_um"  58420 -77724 (net GND)(type protect))
+    (via "Via[0-3]_800:400_um"  58400 -94000 (net GND)(type protect))
+    (via "Via[0-3]_800:400_um"  127508 -85090 (net "Net-(U33-Pad16)")(type protect))
+    (via "Via[0-3]_800:400_um"  127508 -106680 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  122936 -107950 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  122936 -110490 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  123000 -49540 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  123000 -47000 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  143256 -46990 (net +3V3)(type protect))
@@ -3005,6 +3077,7 @@
     (via "Via[0-3]_800:400_um"  147828 -106680 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -104140 (net +3V3)(type protect))
     (via "Via[0-3]_800:400_um"  127508 -105410 (net +3V3)(type protect))
+    (via "Via[0-3]_800:400_um"  122555 -95250 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  122555 -115570 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  203835 -115570 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  183515 -115570 (net VDD_Filters)(type protect))
@@ -3027,7 +3100,7 @@
     (via "Via[0-3]_800:400_um"  183515 -74930 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  203835 -74930 (net VDD_Filters)(type protect))
     (via "Via[0-3]_800:400_um"  224155 -95250 (net VDD_Filters)(type protect))
-    (via "Via[0-3]_800:400_um"  133096 -85598 (net GND)(type protect))
     (via "Via[0-3]_800:400_um"  122555 -74930 (net VDD_Filters)(type protect))
+    (via "Via[0-3]_800:400_um"  92456 -97028 (net 5V_CoraZ7)(type protect))
   )
 )
