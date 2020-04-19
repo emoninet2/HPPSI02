@@ -251,30 +251,6 @@ F 3 "" H 6050 1050 50  0001 C CNN
 	1    6050 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J27
-U 1 1 5E4E8DF0
-P 1450 2200
-F 0 "J27" H 1530 2192 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 1530 2101 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1450 2200 50  0001 C CNN
-F 3 "~" H 1450 2200 50  0001 C CNN
-	1    1450 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0152
-U 1 1 5E4ECFCC
-P 2050 2250
-F 0 "#PWR0152" H 2050 2000 50  0001 C CNN
-F 1 "GND" H 2055 2077 50  0000 C CNN
-F 2 "" H 2050 2250 50  0001 C CNN
-F 3 "" H 2050 2250 50  0001 C CNN
-	1    2050 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 2200 2050 2250
 Text GLabel 5450 1100 2    50   Input ~ 0
 5V_CoraZ7
 $Comp
@@ -318,15 +294,6 @@ Text GLabel 5300 2400 2    50   Input ~ 0
 3V3_Reg
 Wire Wire Line
 	5300 2400 5150 2400
-Text GLabel 1950 2100 2    50   Input ~ 0
-V_RAW
-Wire Wire Line
-	1600 2100 1650 2100
-Wire Wire Line
-	1650 2100 1950 2100
-Connection ~ 1650 2100
-Wire Wire Line
-	1650 2200 2050 2200
 Wire Wire Line
 	5150 1100 5450 1100
 Wire Wire Line
@@ -563,4 +530,39 @@ F 3 "~" H 7500 4200 50  0001 C CNN
 	1    7500 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 5EA23779
+P 1050 2200
+F 0 "J?" H 1107 2517 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1107 2426 50  0000 C CNN
+F 2 "" H 1100 2160 50  0001 C CNN
+F 3 "~" H 1100 2160 50  0001 C CNN
+	1    1050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA2418A
+P 1550 2350
+F 0 "#PWR?" H 1550 2100 50  0001 C CNN
+F 1 "GND" H 1555 2177 50  0000 C CNN
+F 2 "" H 1550 2350 50  0001 C CNN
+F 3 "" H 1550 2350 50  0001 C CNN
+	1    1550 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2300 1550 2300
+Wire Wire Line
+	1550 2300 1550 2350
+Wire Wire Line
+	1350 2200 1550 2200
+Wire Wire Line
+	1550 2200 1550 2300
+Connection ~ 1550 2300
+Text GLabel 1450 2100 2    50   Input ~ 0
+V_RAW
+Wire Wire Line
+	1350 2100 1450 2100
 $EndSCHEMATC
