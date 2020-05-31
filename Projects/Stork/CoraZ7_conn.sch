@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2700 4350 2700
 $Comp
-L Stork-rescue:Digilent-CoraZ7-Digilent-CoraZ7-Stork-rescue U?
+L HPPSI02-rescue:Digilent-CoraZ7-Digilent-CoraZ7-Stork-rescue-Stork-rescue U?
 U 1 1 5E33641B
 P 3850 3750
 AR Path="/5E33641B" Ref="U?"  Part="1" 
