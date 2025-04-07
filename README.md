@@ -1,1 +1,3 @@
-# StorkBoardDesign
+# HPPSI02
+
+link to [HPPSI02](https://github.com/emoninet2/HPPSI01/tree/master)
